@@ -1,0 +1,645 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+border-color: black;
+
+}
+ul{
+    list-style:none;
+    
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.navigation{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width:2000px;
+    min-width: 200px;
+   border: 50px;
+    width:100%;
+    margin:0px;
+    background-color: rgb(31, 31, 31)
+  
+}
+.menu{
+    display: flex;
+
+}
+.menu li a{
+    padding:3px 10px ;
+    margin: 0px 15px;
+   font-size: large;
+    font-weight:700px;
+    align-content: center;
+    
+    letter-spacing:0.5px;
+    
+}
+.menu li a:hover{
+    color:rgb(130, 255, 130); 
+    
+}
+
+.logo{
+   
+   font-weight: bolder;
+font-size: xx-large;    
+letter-spacing:1px;
+    color: white;
+
+}
+.navigation a:hover{
+    color:rgb(130, 255, 130); 
+}
+.right-nav{
+   display: grid;
+   grid-template-columns: auto auto;
+column-gap: 25px;
+
+}
+.right-nav .insta{
+  font-size: larger;
+    color: rgb(226, 43, 43);
+background-color:rgba(226, 43, 43, 0.607) ;
+}
+.right-nav .carrinho{
+    font-size: larger;
+    color: rgb(130, 255, 130);
+   background-color:rgba(130, 255, 130, 0.396) ;
+    
+} 
+.logo span{
+    
+    font-size: xx-large;
+    font-weight: 700;
+    color: red;
+}
+.right-nav a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+position: relative;
+}
+.right-nav a span{
+    position:absolute;
+    top: -10px;
+    right: -7px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+   justify-content: center;
+    align-content: center;
+    background-color: rgb(130, 255, 130);
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: small;
+ font-weight: lighter;
+}
+
+#barraPesquisa {
+    
+    max-width:2000px;
+    min-width: 500px;
+    width:100%;
+    height: 150px;
+    align-items: center;
+
+     margin: 10px auto;
+     position: relative;
+background-image: url(imagens/Banner.jpg);
+
+background-repeat: no-repeat;
+background-size: 2000px;
+padding: 100px;
+    }
+    .texto{
+display: flex;
+flex-direction: column;
+max-width:  700px;
+min-width: 500px;
+margin-left: 70px;
+position: absolute;
+top:20px;
+left: 20px;
+    }
+    .texto h1{
+        font-size:60px;
+        line-height: 55px;
+        text-transform: uppercase;
+ color: white;
+    }
+    .texto strong{
+        color: red;
+        font-size: xx-large;
+    }
+    .caixa-de-procura{
+        background-color: rgb(255, 255, 255);
+      
+        width:500px;
+        min-width: 400px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-top:25px;
+        padding:0px 5px 0px 20px ;
+        border-radius:30px;
+    position:absolute ;
+    top: 40px;
+    left: 650px;
+
+    
+}
+    .caixa-de-procura i{
+        font-size: 20px;
+        color: #3b3b3b;
+        margin: 0px 20px ;  
+    }
+    .caixa-de-procura .input-procura{
+        height: 40 px;
+        border: none;
+        max-width:  100%;
+       
+        padding: 0px 10px;
+   outline: none;
+    }
+    .caixa-de-procura .output-procura{
+        width: 220px;
+       height: 30px;
+        border-radius:30px;
+        background-color:  rgb(130, 255, 130);
+        border-style: hidden;
+        color: white;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .caixa-de-procura .output-procura:hover{
+        background-color: lightgreen;
+    }
+    /*==categorias=====*/
+    #categorias{
+        display: flex;
+        flex-direction: column;
+        max-width: 2000px;
+        min-width: 500px;
+      margin: auto;
+      background-color: rgb(31, 31, 31);
+     
+    }
+    .cabeçalho-categorias{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        align-items: center;
+      
+
+    }
+    .cabeçalho-categorias h2{
+       font-size: x-large;
+        font-weight: 700;
+        color: white;
+        letter-spacing: 0,5px;
+        margin-top:5px;
+
+    }
+    .cabeçalho-categorias span{
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: rgb(64, 64, 64);;
+    }
+    .contentor-de-categorias{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin: 20px 100px;
+        
+    }
+    .caixa-de-categoria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50%;
+        height: 165px;
+      
+        width: 165px;
+       
+        border: 2px solid rgb(255, 9, 9);
+    }
+
+    .caixa-de-categoria img{
+        height: 70px;
+        width: 70px;
+        object-fit: contain;
+        object-position: center;
+        color: white;
+    }
+    .caixa-de-categoria span{
+        font-size: small;
+        font-weight: 700;
+       margin-top: 5px;
+        color: rgb(31, 31, 31);
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .caixa-de-categoria:hover{
+        border: 1px solid rgb(9, 255, 103);
+    }
+    
+    
+    #sobrenos{
+        display: flex;
+    }
+     .banner-esquerda{
+        width: 180px;
+      
+          height: 1100px;
+           background-image: url(imagens/lateral.jpg);
+        background-color: red;
+           background-size: 160px;
+        align-items: center;
+           background-attachment: fixed;
+        }
+        
+    
+    .contentor-sobrenos{
+        width: 1640px;
+        height: 1000px;
+       margin-top: 10px;
+        background-image: url(imagens/vista-de-perto-do-armazem.jpg);
+        background-repeat: no-repeat;
+        background-size: 1640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+          
+    }
+    .contentor-sobrenos p{
+        color: white;
+        margin: 50px 200px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: large;
+     
+    }
+    .contentor-sobrenos h3{
+        color: white;
+        font-size: 70px;
+    }
+    .banner-direita{
+        width: 180px;
+      
+          height: 1100px;
+           background-image: url(imagens/lateral.jpg);
+        background-color: red;
+           background-size: 160px;
+        align-items: center;
+           background-attachment: fixed;
+        }
+        
+   
+    
+    
+    
+    
+    footer{
+        background-color:rgb(31, 31, 31);
+    padding: 50px 20px;
+    }
+    .contentor-footer{
+        max-width: 2000px;
+        margin: auto;
+        display: flex;
+        justify-content:space-around;
+        align-items:flex-start ;
+    
+    }
+    .logo-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-footer a{
+        color:white ;
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .logo-footer span{
+        font-size: xx-large;
+        font-weight: 700;
+        color: red;
+    }
+    .social-footer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .social-footer a{
+        width: 40px;
+        height: 40px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:2px dashed black;
+        margin:0px 5px;
+        border-radius: 0px 5px 0px 5px ;
+    }
+    .social-footer a:hover {
+        background-color: rgb(9, 255, 103);
+    }
+    .links-footer strong{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 600;
+    
+    }
+    .links-footer ul{
+        margin-top: 10px;    
+    }
+    .links-footer ul li a{
+        color:white;
+        opacity: 0.5;
+    margin: 4px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    }
+    .links-footer li a:hover{
+        opacity: 1;
+    }
+    
+    @media(max-width:1200px){
+    
+    
+    
+        .navigation{
+           
+            max-width:1500px;
+        
+        }
+        .menu li a{
+    
+    font-size: small;
+        }
+       
+        .logo{
+       
+         
+         font-size: large;    
+         }
+         #barraPesquisa{
+           
+            background-size:cover;
+         }
+         .texto h1{
+            font-size: 40px;
+         }
+         .texto strong{
+        font-size: 25px; 
+        
+        }
+        .caixa-de-procura{
+        width: 100px;
+        position:absolute ;
+        top: 40px;
+        left: 300px;    
+        }
+        .caixa-de-categoria{
+            width:100px;
+            height:100px;
+        }
+        .caixa-de-categoria img{
+        
+        width: 20px;
+        height: 20px;
+        
+        }
+        .poster-campanha{
+     
+            background-repeat: no-repeat;
+         background-attachment: fixed;
+     
+          background-position-x: -100px;
+            
+        }
+    
+        .contentor-produtos{
+            width:600px;
+            background-color: rgb(31, 31, 31);
+        display:grid;
+         
+         grid-template-columns: repeat(1,1fr) ;
+    }
+    
+    
+    
+    
+    
+    
+    .caixa-cliente p{
+        font-size: 9px;
+    }
+    .banner-esquerda{
+    height: 4000px;
+    
+    
+    }
+    .banner-direita{
+        height: 4000px;
+        
+        
+        }
+    
+    }
+    @media(max-width:600px){
+       .navigation{
+        display: flex;
+        justify-content: left;
+        width: 500px;
+    }
+       
+        .logo span{
+        
+            font-size: medium;
+            font-weight: 700;
+            color: red;
+        }
+        .logo span a{
+        
+            font-size: small;
+         
+        }
+        .menu li a{
+           display: flex;
+           flex-direction: column;
+           font-size:9px;
+           margin: 0px 5px;
+        }
+        .right-nav .insta{
+            display: none;
+          }
+          .texto h1{
+            font-size: 20px;
+            position: relative;
+            right: 50px;
+        }
+         .texto strong{
+        font-size: 15px; 
+        position: relative;
+            right: 50px;
+        }
+        .cabeçalho-categorias h2{
+            font-size: large;
+            
+     
+         }
+        
+        
+        
+        .caixa-de-procura{
+            width: 170px;
+            position:absolute;
+            top: 60px;
+            left: 100px;
+                
+            }
+            .caixa-de-procura i{
+                font-size: 15px;
+               
+                margin: 0px 0px ;  
+            }
+            .caixa-de-procura .input-procura {
+              font-size: 6px;
+             
+            }
+            .caixa-de-procura .output-procura{
+                width: 60px;
+               height: 30px;
+               font-size: 10px;
+               position: relative;
+               left: 70px;
+            }
+        
+            .contentor-de-categorias{
+                width: 400px;
+                margin: 0px 10px;
+                justify-content: center;
+                
+            }
+            .caixa-de-categoria{
+                width:50px;
+                height:50px;
+                
+                
+                border:1px solid red;
+                
+            }
+            .caixa-de-categoria span{
+                display: none;
+            }
+            
+            .contentor-produtos{
+       width: 500px;
+            display:grid;
+             grid-template-columns: repeat(1,1fr) ;
+        
+            }
+            .informação-produto{
+              width: 100px;
+            
+                
+            }
+            .informação-produto ul{
+                font-size:9px ;
+                
+             
+                
+               
+            }
+            .informação-produto .video{
+                color: red;
+                font-size: 10px;
+            
+            
+            }
+          
+          
+            
+            .caixa-cliente{
+                width: 115px;
+            
+            
+             }
+             .perfil-cliente img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+             }
+           .perfil-texto strong{
+               font-size: 11px;
+               line-height: 10%;
+              
+               
+           }
+      
+           
+           
+           .rating i{
+               color:#fdcc0d;
+               font-size: 10px;
+           
+           }
+           .caixa-cliente p{
+               color: #7c7c7c;
+           font-size: 8px;
+            }
+        
+            .links-footer strong{
+            font-size: large;
+            }
+            .links-footer ul li a{
+                font-size: 9px;
+            }
+            .banner-esquerda{
+              display: none;
+                
+                
+                }
+                .banner-direita{
+                    display: none;
+                    
+                    
+                    }
+        
+        
+        
+        }
+    
+    
+    

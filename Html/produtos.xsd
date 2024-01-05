@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.produtos.org"
+    xmlns:tns="http://www.produtos.org"
+    elementFormDefault="qualified">
+    <element name="produtos">
+      <complexType>
+        <sequence>
+          <element name="categoria" maxOccurs="9">
+            <complexType>
+              <restriction base="string">
+                <enumeration value="Televisores"></enumeration>
+                <enumeration value="Smartphones"></enumeration>
+                <enumeration value="GrandesEletrodomésticos"></enumeration>
+                <enumeration value="PequenosEletrodomésticos"></enumeration>
+                <enumeration value="Lifestyle"></enumeration>
+                <enumeration value="SmartHome"></enumeration>
+                <enumeration value="Desktop"></enumeration>
+                <enumeration value="Laptops"></enumeration>
+                <enumeration value="Componentes"></enumeration>
+              </restriction>
+            </complexType>
+          </element>
+        </sequence>
+      </complexType>
+    </element>
+  
+
+
+     
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <element name="product">
+        <complexType>
+          <sequence>
+            <element name="name" type="string"/>
+            <element name="description" type="string"/>
+            <element name="price" type="decimal"/>
+          </sequence>
+        </complexType>
+      </element>
+    
+      <!-- Define the category element with a sequence of product elements -->
+      <element name="category">
+        <complexType>
+          <sequence>
+            <element ref="product" maxOccurs="unbounded"/>
+          </sequence>
+          <attribute name="name" type="string" use="required"/>
+        </complexType>
+      </element>
+    
+      <!-- Define the root element (companyProducts) with a sequence of category elements -->
+      <element name="companyProducts">
+        <complexType>
+          <sequence>
+            <element ref="category" maxOccurs="unbounded"/>
+          </sequence>
+        </complexType>
+      </element>
+    
+
+
+
+
+
+
+
+
+</schema>
