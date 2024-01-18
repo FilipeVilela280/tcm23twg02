@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd" >
+
+	<Produto >
+		<nome>Nebulizador Beurer IH</nome>
+		<imagem>imagens/NebulizadorBeurerIH.jpg</imagem>
+		<descrição>ecnologia de ar comprimido 
+        Elevada proporção de partículas respiráveis
+        Tempo de inalação curto</descrição>
+		 <preco>79€</preco>
+		 <vídeo>https://youtu.be/W4NOSUcDtCo?si=jUWMxKgy_Zg89lxw</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Rolos Aquecidos Remington H9100</nome>
+		<imagem>imagens/AspiradorVerticalRowenta.jpg</imagem>
+		<descrição>      Design de mola melhorado
+        Cobertura protetora
+        Estrutura compacta para armazenamento fácil</descrição>
+		 <preco>83€</preco>
+		 <vídeo>https://youtu.be/O6ldFBegfKA?si=pfXczKatRSozpaIh</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Escova Facial Rowenta LV8530F0</nome>
+		<imagem>imagens/EscovaFacialRowenta.jpg</imagem>
+		<descrição>   Ação 2 em 1 de limpeza e nutrição que oferece à sua pele
+        Aparelho de elevada qualidade com cerdas em silicone</descrição>
+		 <preco>149€</preco>
+		 <vídeo>https://youtu.be/oqZVLx0BYmY?si=i4kYshc9MTapobQT</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Intercomunicador Motorola PIP1500</nome>
+		<imagem>imagens/IntercomunicadorMotorola.jpg</imagem>
+		<descrição> Monitorização e Transmissão gratuita de eventos 24 horas
+        Tecnologia FHSS de 2.4GHz
+        Câmara VGA Manual Pan / Tilt  </descrição>
+		 <preco>229€</preco>
+		 <vídeo>https://youtu.be/EPRabypov_U?si=vpqVQUvP3pvspug5</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Massajador de Compressão de Pernas Beurer</nome>
+		<imagem>imagens/MassajadorCompressaoPernas.jpg</imagem>
+		<descrição>        Intensidade da massagem contínua ajustável
+        Temporizador de 10/20/30 min
+        Botão de segurança STOP
+       </descrição>
+		 <preco>120€</preco>
+		 <vídeo>https://youtu.be/Wi1QjaPt_wo?si=jyRTibEEm7BBkYZt</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Aparador Philips OneBlade Pro Face</nome>
+		<imagem>imagens/AparadorPhilipsOneBlade.jpg</imagem>
+		<descrição>                     Autonomia: 120 minutos
+        Carregamento: Carga completa em 1 hora
+        Tipo de bateria: Iões de lítio</descrição>
+		 <preco>93€</preco>
+		 <vídeo>https://youtu.be/jOu_i9XLtA4?si=1bnsHhsQZA3Hk5U2</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Termómetro Corporal Withings Thermo Smart Temporal Thermometer</nome>
+		<imagem>imagens/TermometroCorporalWithings.jpg</imagem>
+		<descrição>
+            Alta precisão: Thermo tem 16 sensores
+            Sincronização automática
+             Medição ultra-rápida com indicador de febre codificado por cores</descrição>
+		 <preco>100€</preco>
+		 <vídeo>https://youtu.be/dSur1xfQOU8?si=7MwW7Qk31rX6Iyih</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Barbear Braun Series 7</nome>
+		<imagem>imagens/MaquinaBarbearBraun.jpg</imagem>
+		<descrição> Máquina de barbear elétrica com adaptação de 360° 
+        Bateria Li-Ion para até 3 semanas de barbear
+        Inclui um centro de limpeza SmartCare e acessório EasyClick </descrição>
+		 <preco>269€</preco>
+		 <vídeo>https://youtu.be/81P_iXYcOv4?si=fvoYpOfwNOGdofPQ</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Balança Corporal Withings Body Scan </nome>
+		<imagem>imagens/BalancaCorporalWithings.jpg</imagem>
+		<descrição>Composição corporal segmentar: Monitoriza o peso
+        Saúde do coração: Indicação da sua saúde cardiovascular
+        Monitor de ECG Withings</descrição>
+		 <preco>399€</preco>
+		 <vídeo>https://youtu.be/FrtIxjGEceM?si=s1SbIUaKJirQBsUu</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Passadeira Cecotec ExtremeTrack Vibrator</nome>
+		<imagem>imagens/FritadeiraAirFryerXiaomi.jpg</imagem>
+		<descrição>Velocidade ajustável: de 1 km/h a 18 km/h para os mais exigentes.
+        UltraFlex system
+        Automatic Tilt</descrição>
+		 <preco>489€</preco>
+		 <vídeo>https://youtu.be/w8G-cj9JjZ4?si=QensAwCAa7ukIJxO</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Secador de Cabelo Dreame Hair Gleam AHD12A</nome>
+		<imagem>imagens/SecadorCabeloDreameHair.jpg</imagem>
+		<descrição>                Alta velocidade - 110.000 RPM
+        Velocidade do fluxo de ar potente - 65m/s
+        Corpo ultra-leve de apenas 330 grs</descrição>
+		 <preco>80€</preco>
+		 <vídeo>https://youtu.be/xWmXhbuHuhc?si=ROcH07P12Re9gpEm</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Escova de Dentes Elétrica Oral-B iO Série 9S</nome>
+		<imagem>imagens/EscovaDentesOral-BiO.jpg</imagem>
+		<descrição>     Tmicrovibrações suaves
+        Visor Interativo
+            Rastreio 3D com a app Oral-b</descrição>
+		 <preco>199€</preco>
+		 <vídeo>https://youtu.be/CoV2XQJbqlk?si=-FLR1aHdaoTLxq1u</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

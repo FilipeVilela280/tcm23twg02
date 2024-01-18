@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Pagina Inicial Techproducts">
+    <meta name="description" content="Pagina GrandesEletrodomesticos">
     <meta name="autor" content="FilipeVilela">
+    <script src="XML_Js_GrandesEletrodomesticos.js"></script>
     <link rel="stylesheet" href="styleProdutos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,403 +15,117 @@
         rel="stylesheet">
     <title>GrandesEletrodomesticos</title>
 
-    <html>
-        <body>
-            <!--Barra de navegação-->
-            <nav class="navigation">
-                <a href="#PaginaInicial.html" class="logo">
-                    <span>Tec</span>Product</a>
-                <ul class="menu">
-        
-                    <li><a href="PaginaInicial.html">Home</a></li>
-                    <li><a href="Descontos.html">Campanhas e descontos</a></li>
-                    <li><a href="Sobrenos.html">Sobre nos</a></li>
-                    <li><a href="Ajuda.html">Ajuda</a></li>
-        
-                </ul>
-                <div class="right-nav">
-        
-                    <a href="#" class="insta">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a><a href="#" class="carrinho">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span>0</span>
-                    </a>
-                </div>
-            </nav>
-            <!--barra de pesquisa-->
-            <section id="barraPesquisa">
-                <div class="texto">
-                    <h1>Melhores Preços</h1>
-                    <strong>#EntregaGrátis</strong>
-                    <form action="" class="caixa-de-procura">
-                        <i class="fas fa-search"></i>
-                        <input type="text" class="input-procura" placeholder="Escreve aqui o que procuras..." name="procura"
-                            required>
-                        <input type="submit" class="output-procura" value="Procurar">
-        
-                    </form>
-                </div>
-            </section>
-            <!--Categorias de produtos-->
-            <section id="categorias">
-        
-                <div class="cabeçalho-categorias">
-                    <h2> Categorias</h2>
-                    <span>ALL </span>
-                </div>
-                
-                <div class="contentor-de-categorias">
-        
-                <a href="Televisores.html"class="caixa-de-categoria">
+</head>
+
+<body onload="loadData()">
+    <!--Barra de navegação-->
+    <nav class="navigation">
+        <a href="#PaginaInicial.html" class="logo">
+            <span>Tec</span>Product</a>
+        <ul class="menu">
+
+
+            <li><a href="Descontos.html">Campanhas descontos</a></li>
+            <li><a href="Sobrenos.html">Sobre nos</a></li>
+            <li><a href="Ajuda.html">Ajuda</a></li>
+
+        </ul>
+        <div class="right-nav">
+
+            <a href="#" class="insta">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a><a href="#" class="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <!--barra de pesquisa-->
+    <section id="barraPesquisa">
+        <div class="texto">
+            <h1>Melhores Preços</h1>
+            <strong>#EntregaGrátis</strong>
+            <form action="#" class="caixa-de-procura">
+                <i class="fas fa-search"></i>
+                <input type="text" class="input-procura" placeholder="O que procuras..." name="procura" required>
+                <input type="submit" class="output-procura" value="Procurar">
+
+            </form>
+        </div>
+    </section>
+    <!--Categorias de produtos-->
+    <section id="categorias">
+
+        <div class="cabeçalho-categorias">
+            <h2> Categorias</h2>
+            <span>ALL </span>
+        </div>
+
+        <div class="contentor-de-categorias">
+
+            <a href="Televisores.html" class="caixa-de-categoria">
                 <img src="imagens/television_2933791.png" alt="televisores">
                 <span>Televisores</span>
-               </a>
-               <a href="Smartphones.html"class="caixa-de-categoria">
+            </a>
+            <a href="Smartphones.html" class="caixa-de-categoria">
                 <img src="imagens/smartphone_7344131.png" alt="Smartphones">
                 <span>Smartphones</span>
-               </a>
-               <a href="GrandesEletrodomesticos.html"class="caixa-de-categoria">
+            </a>
+            <a href="GrandesEletrodomesticos.html" class="caixa-de-categoria">
                 <img src="imagens/amenities_2243656.png" alt=">Grandeseletrodomésticos">
                 <span>Grandes </span><span>eletrodomésticos</span>
-               </a>
-               <a href="PequenosEletrodomesticos.html"class="caixa-de-categoria">
+            </a>
+            <a href="PequenosEletrodomesticos.html" class="caixa-de-categoria">
                 <img src="imagens/coffee-maker_125691.png" alt="Pequenoseletrodomésticos">
                 <span>Pequenos </span><span>eletrodomésticos</span>
-               </a>
-               <a href="Lifestyle.html"class="caixa-de-categoria">
+            </a>
+            <a href="Lifestyle.html" class="caixa-de-categoria">
                 <img src="imagens/electric-shaver_80278.png" alt="Lifestyle">
                 <span>Lifestyle</span>
-               </a>
-               <a href="SmartHome.html"class="caixa-de-categoria">
+            </a>
+            <a href="SmartHome.html" class="caixa-de-categoria">
                 <img src="imagens/smart-home_2668384.png" alt="SmartHome">
                 <span>Smart</span><span>Home</span>
-               </a>
-               <a href="Descktops.html"class="caixa-de-categoria">
+            </a>
+            <a href="Descktops.html" class="caixa-de-categoria">
                 <img src="imagens/computer_2004580.png" alt="Computadores">
                 <span>Desktops</span>
-               </a>
-               <a href="Laptops.html"class="caixa-de-categoria">
+            </a>
+            <a href="Laptops.html" class="caixa-de-categoria">
                 <img src="imagens/laptop_4439476.png" alt="Laptops">
                 <span>Laptops</span>
-               </a>
-               <a href="Componentes.html"class="caixa-de-categoria">
+            </a>
+            <a href="Componentes.html" class="caixa-de-categoria">
                 <img src="imagens/processor_3848994.png" alt="componentes">
                 <span>Componentes</span>
-               </a>
-               
-            </div>
-            </section>
-    <div class="cabeçalho-categorias">
+            </a>
+
+        </div>
+    </section>
+    <!--Grelha Produtos-->
+    <section class="cabeçalho-categorias">
         <h3> Grandes Eletrodomesticos</h3>
         <span>ALL </span>
-    </div>
+    </section>
     <section id="produtos">
         <div class="banner-esquerda">
         </div>
-
-
-
-
-
-        <div class="contentor-produtos">
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/ExaustorTekaDV.jpg" alt="camera">
-                    <strong class="nome-produto">Exaustor Teka DVT 98660 TBS BK </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li> Painel de comandos Touch Control </li>
-                        <li> Indicador digital de velocidade selecionada</li>
-                        <li> Sistema de aspiração perimetral "Contour"</li>
-                       
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">387€</strong>
-                  
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/InduçãoCASO.jpg" alt="ssd">
-                    <strong class="nome-produto">Placa de Indução CASO Maitre 2400</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Ecrã digital de grandes dimensões</li>
-                        <li>Particularmente rápido e potente - cerca de 2400 watts</li>
-                        <li> Temperatura ajustável com precisão de 60 a 240 °C</li>
-                   
-                        
-                        
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">107€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/MáquinaSecarZanussi.jpg" alt="Headset">
-                    <strong class="nome-produto">Máquina Secar Roupa Zanussi ZDH8353W 8kg</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Capacidade de secagem: 8 kg</li>
-                        <li>Tecnologia com bomba de calor
-</li>
-                        <li>Display LCD médio</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">519€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/ArcaVerticalZanuss.jpg" alt="frigorifico">
-                    <strong class="nome-produto">Arca Vertical Zanussi ZYAN8EW0 </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Controlo mecânico</li>
-                        <li>Descongelação manual</li>
-                        <li>Pés ajustáveis</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">469€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/MáquinaLavarLG.jpg" alt="mic">
-                    <strong class="nome-produto">Máquina de Lavar Loiça LG DF325FW </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Eficiência energética A++</li>
-                        <li>Eficiência de secagem A</li>
-                        <li>Consumo anual de energia 266 kWh</li>
-                        
-                        <li>Ecrã AMOLED 120Hz </li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">539€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/MáquinaLavarRoupaMiniLG.jpg" alt="Monitormsi">
-                    <strong class="nome-produto">Máquina de Lavar Roupa MiniLG F8K5XN3 </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Duas Lavagens diferentes ao mesmo tempo</li>
-                        <li>Capacidade de Lavagem 2Kg</li>
-                        <li>Motor Slim DD de 3 movimentos</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">294€</strong>
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/PlacaCozinhaIndução Samsung.jpg" alt="DiscoRigido">
-                    <strong class="nome-produto"> Placa de Cozinha Indução Samsung NZ64B6058GK</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Zona Flexível Plus </li>
-                        <li>Conectividade Wi-Fi</li>
-                        <li>Compatível com SmartThings</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">482€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/FrigoríficoCombinadoSamsung.jpg" alt="pcLenovo">
-                    <strong class="nome-produto">Frigorífico Combinado Samsung RB33B610EBN</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>capacidade de 344L</li>
-                        <li>Tipo de refrigeração: All Around Cooling</li>
-                        <li>No Frost</li>
-                       
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">739€</strong>
-             
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/Micro-ondasEncastreSiemens.jpg" alt="grafica">
-                    <strong class="nome-produto"> Micro-ondas de Encastre Siemens iQ500 BE555LMS0</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>O display touchSlider permite controlar as várias funções </li>
-                        <li>Potência máxima: 900W</li>
-                        <li>úmero de níveis de potência:5</li>
-                       
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">359€</strong>
-                 
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/FornoElétricosamsunf.jpg" alt="aspirador">
-                    <strong class="nome-produto">Forno Elétrico de Encastre Samsung NV7B4550VAS </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>  Dual Cook Flex™</li>
-                        <li>    Capacidade de 76L </li>
-                        <li>  Porta Flexível </li>
-                        
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">603€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/MáquinaLavarLoiça LG.jpg" alt="Monitor">
-                    <strong class="nome-produto">Máquina de Lavar Loiça de Livre Instalação LG DF455HSS</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Máxima higienização com TrueSteam™ </li>
-                        <li>  Sistema de braços QuadWash™</li>
-                        <li>Design EasyRack™ Plus com 3 cestos reguláveis</li>
-
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">817€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/maquinalavarsamsung.jpg" alt="spray">
-                    <strong class="nome-produto">Máquina de Lavar Samsung WW80T4040EE 8kg 1400RPM</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Consumo de Energia (100 Ciclos): 73 kWh</li>
-                        <li> Duração do ciclo Eco 40-60 (h:mm): 3:38</li>
-                            <li>   Eficiência de Centrifugação: B</li>
-                        <li> lasse de emissão de ruído: A</li>
-                    </ul>
-
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">354€</strong>
-                    
-                </div>
-            </div>
-        </div>
-     
-
-
-            <div class="banner-direita"></div>
-   
-   
-        </section>
-
-
-
-        <footer>
-            <div class="contentor-footer">
-                <div class="logo-footer">
-                    <a href="PaginaInicial.html"><span>Tec</span>Product</a></a>
-               
+        <div id="contentorProdutos"> </div>
+        <div class="banner-direita"></div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="contentor-footer">
+            <div class="logo-footer">
+                <a href="PaginaInicial.html"><span>Tec</span>Product</a>
                 <div class="social-footer">
                     <a href="https://twitter.com/tecproduct25180"><i class="fab fa-x"></i></a>
                     <a href="https://www.instagram.com/tecproducts280/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i
+                            class="fab fa-youtube"></i></a>
                 </div>
-            
-            </div> 
+
+            </div>
             <div class="links-footer">
                 <strong>Categorias</strong>
                 <ul>
@@ -430,18 +145,18 @@
                 <ul>
                     <li><a href="#">Telefone:+351253000000</a></li>
                     <li><a href="#">Email:tecproducts280@gmail.com</a></li>
-               
+
                 </ul>
             </div>
-            </div>
-             
-            </footer>
-            
-            
-            
-            
-            
-            
-            </body>
-            
-            </html>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

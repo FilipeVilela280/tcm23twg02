@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -7,6 +8,7 @@
 border-color: black;
 
 }
+/*-----------Menu------------ */
 ul{
     list-style:none;
     
@@ -19,7 +21,7 @@ a{
 body{
     margin:0px;
     padding:0px;
-    font-family: 'Poppins', sans-serif;
+
    
 }
 .navigation{
@@ -53,7 +55,7 @@ body{
     color:rgb(130, 255, 130); 
     
 }
-
+/*-----------Logo------------ */
 .logo{
    
    font-weight: bolder;
@@ -65,6 +67,7 @@ letter-spacing:1px;
 .navigation a:hover{
     color:rgb(130, 255, 130); 
 }
+/*-----------Redes Sociais/Carinho------------ */
 .right-nav{
    display: grid;
    grid-template-columns: auto auto;
@@ -113,10 +116,10 @@ position: relative;
     font-size: small;
  font-weight: lighter;
 }
-
+/*-----------Barra de pesquisa------------ */
 #barraPesquisa {
     
-    max-width:2000px;
+  width:2000px;
     width:100%;
     height: 150px;
     align-items: center;
@@ -124,7 +127,6 @@ position: relative;
      margin: 10px auto;
      position: relative;
 background-image: url(imagens/Banner.jpg);
-
 background-size:cover;
 background-repeat: no-repeat;
 
@@ -150,6 +152,7 @@ left: 20px;
         color: red;
         font-size: xx-large;
     }
+ /*-----------Caixa de procura/Form------------ */
     .caixa-de-procura{
         background-color: rgb(255, 255, 255);
       
@@ -170,13 +173,13 @@ left: 20px;
     .caixa-de-procura i{
         font-size: 20px;
         color: #3b3b3b;
-        margin: 0px 20px ;  
+         
     }
     .caixa-de-procura .input-procura{
         height: 40 px;
         border: none;
         max-width:  100%;
-       
+       font-size: 10px;
         padding: 0px 10px;
    outline: none;
     }
@@ -193,13 +196,13 @@ left: 20px;
     .caixa-de-procura .output-procura:hover{
         background-color: lightgreen;
     }
-    /*==categorias=====*/
+/*-----------Categorias Section------------ */
     #categorias{
         display: flex;
         flex-direction: column;
-        max-width: 2000px;
-        min-width: 500px;
-      margin: auto;
+        width: 2000px;
+        
+    
       background-color: rgb(31, 31, 31);
      
     }
@@ -269,7 +272,8 @@ left: 20px;
     .caixa-de-categoria:hover{
         border: 1px solid rgb(9, 255, 103);
     }
- #campanha{
+ /*-----------Campanha poster------------ */
+    #campanha{
     display: flex;
     max-width:2000px;
     min-width: 500px;
@@ -279,8 +283,7 @@ left: 20px;
     width:701px;
   
     background-image: url(imagens/campanha.jpg);
-background-position: -80px;
-    background-attachment: fixed;
+  background-attachment: fixed;
  
   background-size: contain;
 
@@ -288,7 +291,7 @@ background-position: -80px;
    
 }
 
-
+/*-----------Contentor Produtos Campanha ------------ */
 .contentor-campanha{
     width: 1624px; 
     background-color: rgb(31, 31, 31);
@@ -296,7 +299,7 @@ display:grid;
  grid-template-columns: repeat(5,1fr) ;
 
 }
-
+/*-----------Caixa do produto------------ */
 .caixa-produto-desconto{
 margin-top: 20px;
 margin-bottom: 20px;
@@ -335,7 +338,7 @@ margin: auto;
     color: rgb(9, 255, 103);
     
 }
-
+/*-----------Precos------------ */
 .preço-atual{
     font-size:17px ;
     color:rgb(9, 255, 103);
@@ -370,7 +373,7 @@ margin: 10px,auto;
 .adicionar-carro:hover{
 color:rgb(9, 255, 103);
 }
- 
+ /*-----------Reviw Clientes------------ */
 #clientes{
     display: flex;
     flex-direction: column;
@@ -435,6 +438,7 @@ border-radius: 0px 20px 0px 20px;
 .caixa-cliente p{
     color: #7c7c7c;
 }
+/*-----------Footer------------ */
 footer{
     background-color:rgb(31, 31, 31);
 padding: 50px 20px;
@@ -447,6 +451,7 @@ padding: 50px 20px;
     align-items:flex-start ;
 
 }
+/*-----------Logo------------ */
 .logo-footer{
     display: flex;
     flex-direction: column;
@@ -464,6 +469,7 @@ padding: 50px 20px;
     font-weight: 700;
     color: red;
 }
+/*-----------Redes Sociais Fotter------------ */
 .social-footer{
     display: flex;
     margin-top: 10px;
@@ -482,6 +488,7 @@ padding: 50px 20px;
 .social-footer a:hover {
     background-color: rgb(9, 255, 103);
 }
+/*-----------NavBar Footer------------ */
 .links-footer strong{
     color: white;
     font-size: 1.4rem;
@@ -501,161 +508,143 @@ letter-spacing: 1px;
 .links-footer li a:hover{
     opacity: 1;
 }
-@media(max-width:1000px){
-    
-    
-    
+
+/*-----------Media Mobile------------ */
+@media(max-width:500px){
     .navigation{
-       
-        max-width:1500px;
-    
+        display: flex;
+        justify-content: left;
+        width: 480px;
     }
-    .menu li a{
-
-font-size: small;
-    }
-   
+    /*-----------Logo------------ */
     .logo{
-   
-     
-     font-size: large;    
-     }
-     #barraPesquisa{
        
-        background-size:cover;
-     }
-     .texto h1{
-        font-size: 40px;
-     }
-     .texto strong{
-    font-size: 25px; 
-    
-    }
-    .caixa-de-procura{
-    width: 100px;
-    position:absolute ;
-    top: 40px;
-    left: 300px;    
-    }
-    .caixa-de-categoria{
-        width:100px;
-        height:100px;
-    }
-    .caixa-de-categoria img{
-    
-    width: 20px;
-    height: 20px;
-    
-    }
-    .poster-campanha{
- 
-        background-repeat: no-repeat;
-     background-attachment: fixed;
- 
-      background-position-x: -100px;
-        
-    }
-
-    .contentor-campanha{
-        width:600px;
-        background-color: rgb(31, 31, 31);
-    display:grid;
-     
-     grid-template-columns: repeat(2,1fr) ;
-}
-.caixa-cliente p{
-    font-size: 9px;
-}
-}
-@media(max-width:600px){
-   .navigation{
-    display: flex;
-    justify-content: left;
-    width: 500px;
-}
-   
+        font-weight: bolder;
+     font-size: small;    
+     letter-spacing:1px;
+         color: white;
+         position: relative;
+         right:  30px;
+     }    
     .logo span{
-    
-        font-size: medium;
-        font-weight: 700;
-        color: red;
-    }
-    .logo span a{
-    
-        font-size: small;
-     
-    }
-    .menu li a{
-       display: flex;
-       flex-direction: column;
-       font-size:9px;
-       margin: 0px 5px;
-    }
-    .right-nav .insta{
-        display: none;
-      }
-      .texto h1{
-        font-size: 20px;
-        position: relative;
-        right: 50px;
-    }
-     .texto strong{
-    font-size: 15px; 
-    position: relative;
-        right: 50px;
-    }
-    .cabeçalho-categorias h2{
-        font-size: large;
         
- 
-     }
-    
-    
-    
-    .caixa-de-procura{
-        width: 170px;
-        position:absolute;
-        top: 60px;
-        left: 100px;
-            
-        }
-        .caixa-de-procura i{
-            font-size: 15px;
-           
-            margin: 0px 0px ;  
-        }
-        .caixa-de-procura .input-procura {
-          font-size: 6px;
-         
-        }
-        .caixa-de-procura .output-procura{
-            width: 60px;
-           height: 30px;
-           font-size: 10px;
+            font-size: medium;
+            font-weight: 700;
+            color: red;
+            position: relative;
+            bottom: 20px;
+        
+    }
+     /*-----------Menu------------ */
+        .menu li a{
+           display: flex;
+           flex-direction: column;
+         width: 80px;
+           font-size:9px;
+           margin: 0px 5px;
+          
+           width: 80px;
+           height: 60px;
            position: relative;
-           left: 70px;
-        }
-    
-        .contentor-de-categorias{
-            width: 400px;
-            margin: 0px 10px;
-            justify-content: center;
-            
-        }
-        .caixa-de-categoria{
-            width:50px;
-            height:50px;
-            
-            
-            border:1px solid red;
-            
-        }
-        .caixa-de-categoria span{
-            display: none;
-        }
+           right: 20px;
+          
         
+        }
+        .right-nav .insta{
+            display: none;
+          
+        }
+        /*-----------Barra Pesquisas------------ */ 
+        #barraPesquisa {
+        
+          margin: 0px;
+           background-color: #3b3b3b;
+          width: 480px;
+            
+            }
+          .texto h1{
+            display: none;
+        
+        
+        }
+         .texto strong{
+        display: none;
+        }
+        /*-----------Caixa de Procura------------ */
+        .caixa-de-procura{
+            width: 300px;
+            position:relative;
+            top: 50px;
+            left: 10px;
+                
+            }
+            .caixa-de-procura i{
+                font-size: 20px;
+                margin: 0px 0px ;  
+            }
+            .caixa-de-procura .input-procura {
+              font-size: 16px;
+             
+            }
+            .caixa-de-procura .output-procura{
+                width: 70px;
+               height: 30px;
+               font-size: 6px;
+        
+            }
+        /*-----------Categorias Section------------ */
+            #categorias{
+            width: 480px;
+            margin: 0px;
+        
+           }
+            .cabeçalho-categorias h2 {
+                font-size: 11px;
+                position: relative;
+                right: 90px;
+                
+             }
+             .cabeçalho-categorias h3 {
+                font-size: 11px;
+                position: relative;
+                right: 90px;
+         
+             }
+             .cabeçalho-categorias span{
+                font-size: 10px;
+               
+         
+             }
+            
+            
+            .contentor-de-categorias{
+                width: 400px;
+                margin: 0px 10px;
+                
+                justify-content: center;
+                
+            }
+            .caixa-de-categoria img{
+        
+                width: 20px;
+                height: 20px;
+                
+                }
+            .caixa-de-categoria{
+                width:50px;
+                height:50px;
+                
+               margin-bottom: 10px;
+                border:1px solid red;
+                
+            }
+            .caixa-de-categoria span{
+                display: none;
+            }
+            
+        /*-----------Campanha section------------ */
         .contentor-campanha{
-   width: 500px;
+   width: 480px;
         display:grid;
          grid-template-columns: repeat(1,1fr) ;
     
@@ -670,8 +659,8 @@ font-size: small;
       
         
         .caixa-cliente{
-            width: 115px;
-        
+            width: 100px;
+        /*-----------Review Clientes----------- */
         
          }
          .perfil-cliente img{
@@ -682,12 +671,21 @@ font-size: small;
             border-radius: 50%;
          }
        .perfil-texto strong{
-           font-size: 11px;
+           font-size: 9px;
            line-height: 10%;
+           
+           position: relative;
+           right: 10px;
           
            
        }
-  
+       .clientes-cabeçalho h3{
+        font-size: 30px;
+       }
+       .caixa-cliente p{
+   
+width: 75x;
+}
        .rating i{
            color:#fdcc0d;
            font-size: 10px;
@@ -697,15 +695,107 @@ font-size: small;
            color: #7c7c7c;
        font-size: 8px;
         }
-    
+    /*-----------Fotter------------ */
         .links-footer strong{
         font-size: large;
         }
         .links-footer ul li a{
             font-size: 9px;
         }
-    }
-
+         
+        .links-footer strong{
+            font-size: large;
+            }
+            .links-footer ul li a{
+                font-size: 9px;
+            }
+        
+        
+        
+                    
+                    .contentor-footer{
+                        width:480px;
+                        
+                       
+                    }
+                    .logo-footer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    margin-right: 40px;
+                       }
+                    .logo-footer a{
+                        color:white ;
+                        font-size: 10px;
+                    }
+                    .logo-footer span{
+                        font-size: medium;
+                        font-weight: 700;
+                        color: red;
+                    }
+                    .social-footer{
+                 display: block;
+                    }
+                    .social-footer a{
+                        width: 40px;
+                        height: 40px;
+                        
+                        
+                    }
+                    
+                   
+                    .links-footer strong{
+                        color: white;
+                        font-size: 11px;
+                        position: relative;
+                        right:  30px;
+                    
+                    }
+                   
+                    .links-footer ul li a{
+                   
+                   position: relative;
+                   right:  40px;
+                    }
+         
+                }
+    
+                /*-----------Media Portatil------------ */
+                @media(max-width:1000px){
+                
+                    #categorias{
+                        width: 1520px;
+                    }
+                                   
+                    
+                                    .caixa-de-categoria{
+                                        width:130px;
+                                        height:130px;
+                                      
+                                        
+                                    }
+                                    .caixa-de-categoria img{
+                        
+                                        width: 50px;
+                                        height: 50px;
+                                        
+                                        }      
+                                        .caixa-de-categoria span{
+                        
+                                           font-size: 11px;
+                                            
+                                            }   
+                                            .preço-antigo{
+                                                font-size: 15px;
+                                            }
+                                            .poster-campanha{
+                                               
+                                            display: none;
+                                             
+                                               
+                                            }                                        }
+                                            
 
 
 

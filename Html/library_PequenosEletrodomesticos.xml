@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd">
+
+	<Produto >
+		<nome>Máquina de Café Automática CASO Café Crema</nome>
+		<imagem>imagens/MaquinaCafeCASO.jpg</imagem>
+		<descrição>Ecrã com operação intuitiva por sensor tátil 
+        Pressão da bomba: máx. 19 bar
+       Prática função de água quente para fazer chá</descrição>
+		 <preco>599€</preco>
+		 <vídeo>https://youtu.be/FszVZCh8fdY?si=Gkyk2Sh4dWAmd1fP</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Aspirador Vertical Rowenta Dual Force 2</nome>
+		<imagem>imagens/AspiradorVerticalRowenta.jpg</imagem>
+		<descrição>Tecnologia: Ciclónica  
+        Sistema Bagless
+        Usage: Touch-ups (2 in 1)</descrição>
+		 <preco>129€</preco>
+		 <vídeo>https://youtu.be/A0iLQ_jkEcc?si=QYkIrrQ-qaapNPeW</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Ferro Vapor Deerma Garment Steamer HS007</nome>
+		<imagem>imagens/FerroVaporDeerma.jpg</imagem>
+		<descrição>  Potência: 800W 
+         Capacidade do depósito de agua: 100mL
+        Peso: 1.1 kg</descrição>
+		 <preco>190€</preco>
+		 <vídeo>https://youtu.be/OYGx6IyiH38?si=pvTgIUJLiLMPV776</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Aspirador Robô iRobot Roomba i3+</nome>
+		<imagem>imagens/AspiradoriRobot.jpg</imagem>
+		<descrição> Esvaziamento Automático
+         ligação Wi-Fi
+        Limpeza completa com a tecnologia Dirt Detect™. </descrição>
+		 <preco>339€</preco>
+		 <vídeo>https://youtu.be/dks2MoCWGhc?si=YCAZKAqybvri3laG</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Ferro Caldeira Black Decker</nome>
+		<imagem>imagens/FerroCaldeiraBlackDecker.jpg</imagem>
+		<descrição>     Potência: 2200 W
+       Base: Cerâmica
+       Autonomia: Ilimitada horas  </descrição>
+		 <preco>79€</preco>
+		 <vídeo>https://youtu.be/2L80lLwRTtw?si=XOikmyXehkAtFK7o</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Liquidificadora Nutribullet NBF400DG</nome>
+		<imagem>imagens/liquidificadoraNutribulletNBF400DG.jpg</imagem>
+		<descrição>  Base de motor com 1200 watts
+        Lâmina extratora com encaixe Easy-Twist
+        Jarro de 1,8 L</descrição>
+		 <preco>100€</preco>
+		 <vídeo>https://youtu.be/uqYct39rGp4?si=w8xD0LtgXj_EqneV</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Purificador de Ar TCL Breeva</nome>
+		<imagem>imagens/PurificadorArTCL.jpg</imagem>
+		<descrição>
+            O filtro de carvão ativo absorve o odor e os COV.
+            Os sensores duplos monitorizam a qualidade do ar
+            Modo automático para ajustar a velocidade do ventilador</descrição>
+		 <preco>129€</preco>
+		 <vídeo>https://youtu.be/js6j0N6YURg?si=7Io8OLCnJUR6Zl2e</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Aquecedor a Óleo DeLonghi Dragon4 TRD4</nome>
+		<imagem>imagens/AquecedorOleoDeLonghi.jpg</imagem>
+		<descrição>             Potência de aquecimento - Máx (W): 2000 
+         Potência de aquecimento - Med (W): 1100
+        Potência de aquecimento - Mín (W): 900</descrição>
+		 <preco>130€</preco>
+		 <vídeo>https://youtu.be/LdKZs7-yMe4?si=qu1-k--lHun8OCUP</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Café DeLonghi Magnifica</nome>
+		<imagem>imagens/MaquinaCafeDeLonghi.jpg</imagem>
+		<descrição>Capacidade do depósito de grãos (g): 250 
+         Capacidade do depósito de água (l): 1.8
+      Capacidade do depósito para moído (n): 14</descrição>
+		 <preco>390€</preco>
+		 <vídeo>https://youtu.be/EvhTr-3x3mg?si=n1VtHyZRVRDrqzkB</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Fritadeira Air Fryer Xiaomi Smart Air</nome>
+		<imagem>imagens/FritadeiraAirFryerXiaomi.jpg</imagem>
+		<descrição> 1600W de potência
+        Temperatura ajustável entre 40ºC e 200ºC
+        Revestimento interior anti-aderente</descrição>
+		 <preco>80€</preco>
+		 <vídeo>https://youtu.be/sBSDjpWsRWk?si=1ACTRF2YTJYQlCU8</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Aspirador Robô Xiaomi Mi Robot Vacuum S10+</nome>
+		<imagem>imagens/AspiradorRoboXiaomiMi.jpg</imagem>
+		<descrição>Capacidade de sucção: 4000Pa
+        Bateria: 5200 mAh
+        Tempo de carregamento: Apróx. 6 horas</descrição>
+		 <preco>400€</preco>
+		 <vídeo>https://youtu.be/Dt2PjMIuJ9Q?si=EpZClMByqUqCcsQv</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Purificador de Ar AEG APU72571DG 7000 Pure Multi</nome>
+		<imagem>imagens/PurificadorArAEG.jpg</imagem>
+		<descrição>                Tecnologia 4 etapas de filtragem
+        Sensores Humidade,
+            Painel de controlo Tátil</descrição>
+		 <preco>230€</preco>
+		 <vídeo>https://youtu.be/O90i9cRAvn0?si=oFZrj86jT0D_HC_A</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd" >
+
+	<Produto >
+		<nome>Televisão LG 32LQ63806LC SmartTV 32" LED FHD</nome>
+		<imagem>imagens/lg32lq.jpg</imagem>
+		<descrição>Painel LED com resolução HD Ready 
+		 Processador α5 Gen5 AI 
+		 Smart TV ThinQ™ AI com sistema operativo webOS 22</descrição>
+		 <preco>289€</preco>
+		 <vídeo>https://youtu.be/UifDVeuHGFc?si=2GQNtZXXI-jphvcM</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Televisão Smart TV LG Série B3 165,1cm OLED 4K UHD </nome>
+		<imagem>imagens/lgserieb3.jpg</imagem>
+		<descrição>Processador α7 AI 4K Gen6
+		 ThinQ AI e WebOS
+		Tipo de painel: OLED 4K</descrição>
+		 <preco>296€</preco>
+		 <vídeo>https://www.youtube.com/watch?v=sWZ8BIxbnDU</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Televisão Smart TV Sony Bravia Série X75WL 127cm LED 4K UHD Google TV</nome>
+		<imagem>imagens/sonybraviax75wl.jpg</imagem>
+		<descrição> Direct LED 
+		 processador de Imagem: 4K Processor X1™
+		taxa de atualização do painel: 50/60 Hz</descrição>
+		 <preco>6909€</preco>
+		 <vídeo>https://youtu.be/ExgxXjjHhm4?si=vyXlKxqJNXRNXh6s</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Televisão Smart TV Xiaomi Mi 4S 139,7cm LED 4K UHD Android TV</nome>
+		<imagem>imagens/xiaomiMi4s.jpg</imagem>
+		<descrição>PCPU: Quad Core (até 1,5 GHz)
+		Ângulo de Visão: 178°(H)/178°(V)
+		DTS-HD</descrição>
+		 <preco>390€</preco>
+		 <vídeo>https://youtu.be/u8K9bRoovpY?si=G59E9LimcrqG-uLA</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Samsung QN90A SmartTV 65" Neo QLED 4K UHD</nome>
+		<imagem>imagens/samsungQN90A.jpg</imagem>
+		<descrição>Motor de Imagem Processador Neo Quantum 4K 
+		  Um bilhão de cores Sim
+		Índice Qualidade de Imagem (PQI) 4500
+		HDR (High Dynamic Range) Quantum HDR 2000 </descrição>
+		 <preco>2221€</preco>
+		 <vídeo>https://youtu.be/MG4g4kblvTE?si=JVHOvOTAsn1V6Ar9</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Monitor LG 24TQ510S-PZ 23.6" LED HD</nome>
+		<imagem>imagens/monitorlg24t.jpg</imagem>
+		<descrição>Amplo Ângulo de Visão
+		Smart TV WebOS 22
+		Coluna Stereo 5W </descrição>
+		 <preco>159€</preco>
+		 <vídeo>https://youtu.be/-INKwikqdvg?si=PB96yUv_EAFUV1BX</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Smart TV LG Série UR91 165,1cm LED 4K UHD webOS</nome>
+		<imagem>imagens/LGserieur91.jpg</imagem>
+		<descrição>UHD com resolução 4K
+	 Processador α5 Gen6 4K AI
+	Smart TV ThinQ™ AI com sistema operativo webOS 23</descrição>
+		 <preco>699€</preco>
+		 <vídeo>https://youtu.be/eAdy5V6UxEQ?si=9SAYyKeXKDrtR0u0</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Samsung LS03CSmartTV 55" QLED 4K UHD</nome>
+		<imagem>imagens/SamsungLSS03C.jpg</imagem>
+		<descrição>Moldura Personalizável com Design Moderno 
+		 100% Volume de Cor com Tecnologia Quantum Dot
+		 Modo Arte 
+		One Connect e Ligações Invisíveis</descrição>
+		 <preco>1099€</preco>
+		 <vídeo>https://youtu.be/WGQmk6pOqDI?si=lS-dBwPSf3JQOole</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Sony KD-32W804 SmartTV LED HD Ready Android TV</nome>
+		<imagem>imagens/sonykd-32w804.jpg</imagem>
+		<descrição>levada gama dinâmica
+		 BRAVIA ENGINE
+		Sistema Operativo Android TV™
+		 Chromecast incorporado</descrição>
+		 <preco>349€</preco>
+		 <vídeo>https://youtu.be/HFYfZTXVrC0?si=8k50uVeLyo9Awy2c</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Smart TV Sony Bravia XR Série A90K OLED 4K UHD</nome>
+		<imagem>imagens/SONYBRAVIA.jpg</imagem>
+		<descrição>OLED 4K
+		  Cognitive Processor XR™ 
+		Modo de latência baixa 
+		Upscaling 3D Surround</descrição>
+		 <preco>1649€</preco>
+		 <vídeo>https://youtu.be/qc9En0fBICQ?si=ybpGnGcz8xchfSNK</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Samsung CU8505 SmartTV 50" LED 4K UHD</nome>
+		<imagem>imagens/SamsungCU8505.jpg</imagem>
+		<descrição> tamanho de ecrã: 50" 
+		 Resolução: 3.840 x 2.160 
+		Motor de imagem: Processador Crystal 4K
+		HLG (Hybrid Log Gamma)</descrição>
+		 <preco>479€</preco>
+		 <vídeo>https://youtu.be/lNbkNRvvYtg?si=ddar1vpSWtO3oISR</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Televisão Smart TV Xiaomi P1E 55"/140cm LED 4K UHD Android TV</nome>
+		<imagem>imagens/Xiaomip1e.jpg</imagem>
+		<descrição>esolução: 4K Ultra HD (3840 x 2160)    
+		Ângulos de visualização: 178º (H) / 178º (V)
+			 Dolby Vision
+		 Taxa de atualização: 60 Hz</descrição>
+		 <preco>389€</preco>
+		 <vídeo>https://youtu.be/7JNbVrBDfjQ?si=QhbiwgzP--YqM6HS</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

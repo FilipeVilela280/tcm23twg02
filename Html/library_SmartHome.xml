@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd">
+
+	<Produto >
+		<nome>Camara Nedis Smart Life Indoor</nome>
+		<imagem>imagens/CamaraNedisSmartLifeIndoor.jpg</imagem>
+		<descrição>    Fácil de ligar diretamente à sua rede Wi-Fi
+        Resolução Full HD
+        Deteção de movimento e som</descrição>
+		 <preco>45€</preco>
+		 <vídeo>https://youtu.be/4Wrl4wmGicY?si=2nvmBBaloIPtWO3r</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Detetor de Monóxido de Carbono Nedis SmartLife</nome>
+		<imagem>imagens/DetetorMonoxidoCarbonoNedis.jpg</imagem>
+		<descrição>     Duração da pilha até 3 anos 
+         Alarme potente - oferece um alerta precoce
+         Sensor fiável - com uma vida útil estimada de 10 anos</descrição>
+		 <preco>52€</preco>
+		 <vídeo>https://youtu.be/YrK-1APZ-vk?si=GuV9ndqxuNEj2raw</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Bebedouro Inteligente Para Animais Xiaomi Smart Pet</nome>
+		<imagem>imagens/BebedouroInteligenteAnimaisXiaomi.jpg</imagem>
+		<descrição>       Nascente de Água Circulante 
+         Filtragem em 4 Fases
+        Funcionamento Silencioso 
+        Conexão Inteligente</descrição>
+		 <preco>61€</preco>
+		 <vídeo>https://youtu.be/DVdf7IIypHQ?si=z3groiQ1gaDT5yX5</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Controlador Rega Nedis SmartLife Water Control</nome>
+		<imagem>imagens/3Rega.jpg</imagem>
+		<descrição>Tecnologia Bluetooth Low Energy
+        Configure facilmente vários horários
+        Fácil de instalar: não são necessárias ferramentas</descrição>
+		 <preco>32€</preco>
+		 <vídeo>https://youtu.be/gQ2YQhULMXo?si=dG0EEejst4VdobvA</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Tomada Inteligente EcoFlow Smart Plug Wi-Fi  </nome>
+		<imagem>imagens/TomadaInteligenteEcoFlow.jpg</imagem>
+		<descrição>    Horários e temporizadores
+        Controlo por voz
+        Ativado para Wi-Fi e Bluetooth
+        Ecrã AMOLED 120Hz
+        </descrição>
+		 <preco>29€</preco>
+		 <vídeo>https://youtu.be/SCt8qcYgT60?si=twHYvno837TnONvM</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Sensor Portas e Janelas EZVIZ T2C </nome>
+		<imagem>imagens/SensorPortasEZVIZT2C.jpg</imagem>
+		<descrição>  Alertas instantâneos através da aplicação EZVIZ
+        Alarme anti-violação
+        Instalação com fita adesiva</descrição>
+		 <preco>29€</preco>
+		 <vídeo>https://youtu.be/5B1ksERdSmo?si=weVx5_90C1nqNIF0</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Candeeiro de Mesa Nedis SmartLife Mood Light Wi-Fi</nome>
+		<imagem>imagens/CandeeiroMesNedisSmartLife.jpg</imagem>
+		<descrição>
+            Design fino, minimalista e economizador de espaço
+            Plug and play: conetividade direta com o seu Wi-Fi
+            Opções de iluminação reguláveis</descrição>
+		 <preco>83€</preco>
+		 <vídeo>https://youtu.be/5j1hZa3bw50?si=H6MPEQvjtP3Veu5C</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Vídeo Porteiro Google Nest Doorbell Wired</nome>
+		<imagem>imagens/VideoPorteiroGoogleNestDoorbellWired.jpg</imagem>
+		<descrição>        Câmara: sensor a cores de 8,46 mm e 3 megapixeis
+        Campo de visão: 160° diagonal
+        Áudio: altifalante e microfone de alta qualidade</descrição>
+		 <preco>219€</preco>
+		 <vídeo>https://youtu.be/N_xfwAm79iY?si=nckEIsDiEwW8nBeh</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Fechadura Inteligente EZVIZ</nome>
+		<imagem>imagens/FechaduraInteligenteEZVIZ.jpg</imagem>
+		<descrição>Inclui Keypad Multifuncional
+        Inclui Keypad Multifuncional
+        Desbloqueio sem chave via aplicativo</descrição>
+		 <preco>199€</preco>
+		 <vídeo>https://youtu.be/eGFl8nPnVdI?si=L_78HLDFnkGEJOJa</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Termostato Inteligente Google Nest Learning</nome>
+		<imagem>imagens/FritadeiraAirFryerXiaomi.jpg</imagem>
+		<descrição> Bateria (recarregável)
+        LCD a cores de 4 bits
+        Bluetooth de baixa energia</descrição>
+		 <preco>241€</preco>
+		 <vídeo>https://youtu.be/G-0KoWpi_0Y?si=bIsE0iktWsc2e6Td</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Iluminação Ambiente Nanoleaf Hexagons</nome>
+		<imagem>imagens/IluminacaoNanoleafHexagons.jpg</imagem>
+           <descrição> imagen Crie o seu próprio design
+            Sincronize com a sua música
+            15x Painéis de Formas Hexagonais</descrição>
+		 <preco>299€</preco>
+		 <vídeo>https://youtu.be/5hfr3nwB5MI?si=B4GZ6ewAg3UVjnxE</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Câmara de Segurança IP Ubiquiti G4 Dome 2K  </nome>
+		<imagem>imagens/CamaraSegurancaIPUbiquiti.jpg</imagem>
+		<descrição> Resolução de vídeo 2K 
+        Ângulo de visualização ultra-amplo
+            Deteções de eventos AI</descrição>
+		 <preco>649€</preco>
+		 <vídeo>https://youtu.be/n9NQYDCLeVs?si=USl1cIp-sA7Y-sF1</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

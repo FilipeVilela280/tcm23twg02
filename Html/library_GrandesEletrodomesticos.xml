@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd" >
+
+	<Produto >
+		<nome>Exaustor Teka DVT 98660 TBS BK</nome>
+		<imagem>imagens/ExaustorTekaDV.jpg</imagem>
+		<descrição> Painel de comandos Touch Control 
+      Indicador digital de velocidade selecionada
+      Sistema de aspiração perimetral "Contour"</descrição>
+		 <preco>387€</preco>
+		 <vídeo>https://youtu.be/vhu2TGHx9sQ?si=38FTBqqrL_E4ZrrI</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Placa de Indução CASO Maitre 2400</nome>
+		<imagem>imagens/InducaoCASO.jpg</imagem>
+		<descrição>Ecrã digital de grandes dimensões
+       Particularmente rápido e potente - cerca de 2400 watts
+        Temperatura ajustável com precisão de 60 a 240 °C</descrição>
+		 <preco>107€</preco>
+		 <vídeo>https://youtu.be/X0t87DwZoF0?si=3uIQwY3zbuALYgYp</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Máquina Secar Roupa Zanussi ZDH8353W 8kg</nome>
+		<imagem>imagens/MaquinaSecarZanussi.jpg</imagem>
+		<descrição>  Capacidade de secagem: 8 kg
+        Tecnologia com bomba de calor
+
+        Display LCD médio</descrição>
+		 <preco>519€</preco>
+		 <vídeo>https://youtu.be/lVJvSZG6ULU?si=CwQfPFw6pCPUk_Si</vídeo>
+	</Produto>
+	
+	
+	<Produto> <nome>Arca Vertical Zanussi ZYAN8EW0 </nome>
+		<imagem>imagens/ArcaVerticalZanuss.jpg</imagem>
+		<descrição>   Controlo mecânico
+       Descongelação manual
+       Pés ajustáveis </descrição>
+		 <preco>469€</preco>
+		 <vídeo>https://youtu.be/fdfXgN_84_c?si=UgdHY3s2ULENdsXF</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Lavar Loiça LG DF325FW</nome>
+		<imagem>imagens/MaquinaLavarLG.jpg</imagem>
+		<descrição>Eficiência energética A++
+       Eficiência de secagem A
+       Consumo anual de energia 266 kWh
+
+       Ecrã AMOLED 120Hz  </descrição>
+		 <preco>539€</preco>
+		 <vídeo>https://youtu.be/skqedx5Be_U?si=8XtwfY45Y2BGcGBe</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Lavar Roupa MiniLG F8K5XN3</nome>
+		<imagem>imagens/MaquinaLavarRoupaMiniLG.jpg</imagem>
+		<descrição >Duas Lavagens diferentes ao mesmo tempo
+     Capacidade de Lavagem 2Kg
+     Motor Slim DD de 3 movimentos</descrição>
+		 <preco>294€</preco>
+		 <vídeo>https://youtu.be/G1BQcFCk9MQ?si=AW2hOusf9pj_7ok6</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Placa de Cozinha Indução Samsung NZ64B6058GK</nome>
+		<imagem>imagens/PlacaCozinhaInducaoSamsung.jpg</imagem>
+		<descrição>
+           Zona Flexível Plus 
+           Conectividade Wi-Fi
+           Compatível com SmartThings</descrição>
+		 <preco>482€</preco>
+		 <vídeo>https://youtu.be/qwxBlnjFMVk?si=Cmvx3zdltptoZFOW</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Frigorífico Combinado Samsung RB33B610EBN</nome>
+		<imagem>imagens/FrigorificoCombinadoSamsung.jpg</imagem>
+		<descrição>  capacidade de 344L
+        Tipo de refrigeração: All Around Cooling
+        No Frost
+       </descrição>
+		 <preco>739€</preco>
+		 <vídeo>https://youtu.be/IHsvHbE9Iwo?si=odlSqRfq8N6KhL_r</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome> Micro-ondas de Encastre Siemens iQ500 BE555LMS0</nome>
+		<imagem>imagens/Micro-ondasEncastreSiemens.jpg</imagem>
+		<descrição>O display touchSlider permite controlar as várias funções 
+        Potência máxima: 900W
+        úmero de níveis de potência:5</descrição>
+		 <preco>359€</preco>
+		 <vídeo>https://youtu.be/tfGqUiLRmzI?si=IrP0fRu2nU-Nsf8R</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Forno Elétrico de Encastre Samsung NV7B4550VAS</nome>
+		<imagem>imagens/FornoEletricosamsunf.jpg</imagem>
+		<descrição>     Dual Cook Flex™
+           Capacidade de 76L 
+         Porta Flexível </descrição>
+		 <preco>603€</preco>
+		 <vídeo>https://youtu.be/p5CppbDwSlI?si=hgEP8FtxZPqIk4fZ</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Lavar Loiça de Livre Instalação LG DF455HSS</nome>
+		<imagem>imagens/MaquinaLavarLoicaLG.jpg</imagem>
+		<descrição> Máxima higienização com TrueSteam™ 
+          Sistema de braços QuadWash™
+        Design EasyRack™ Plus com 3 cestos reguláveis</descrição>
+		 <preco>817€</preco>
+		 <vídeo>https://youtu.be/doi_ZHSLPQ4?si=PjfguBJLOZGFgz1I</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Máquina de Lavar Samsung WW80T4040EE 8kg 1400RPM</nome>
+		<imagem>imagens/maquinalavarsamsung.jpg</imagem>
+		<descrição>  Consumo de Energia (100 Ciclos): 73 kWh
+       Duração do ciclo Eco 40-60 (h:mm): 3:38
+             Eficiência de Centrifugação: B
+       lasse de emissão de ruído: A</descrição>
+		 <preco>354€</preco>
+		 <vídeo>https://youtu.be/EA_1x129Qq4?si=AXiFQCvOmr9oTgXo</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
 
+<html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Pagina Inicial Techproducts">
+    <meta name="description" content="Pagina Smartphone">
     <meta name="autor" content="FilipeVilela">
+    <script src="XML_Js_Smartphones.js"></script>
     <link rel="stylesheet" href="styleProdutos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,405 +13,125 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap"
         rel="stylesheet">
+
     <title>Smartphones</title>
+</head>
+   
+    
 
-    <html>
+<body onload="loadData()">
+    <!--Barra de navegação-->
+    <nav class="navigation">
+        <a href="#PaginaInicial.html" class="logo">
+            <span>Tec</span>Product</a>
+        <ul class="menu">
 
-    <body>
-        <!--Barra de navegação-->
-        <nav class="navigation">
-            <a href="#PaginaInicial.html" class="logo">
-                <span>Tec</span>Product</a>
-            <ul class="menu">
-    
-                <li><a href="PaginaInicial.html">Home</a></li>
-                <li><a href="Descontos.html">Campanhas e descontos</a></li>
-                <li><a href="Sobrenos.html">Sobre nos</a></li>
-                <li><a href="Ajuda.html">Ajuda</a></li>
-    
-            </ul>
-            <div class="right-nav">
-    
-                <a href="#" class="insta">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a><a href="#" class="carrinho">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span>0</span>
-                </a>
-            </div>
-        </nav>
-        <!--barra de pesquisa-->
-        <section id="barraPesquisa">
-            <div class="texto">
-                <h1>Melhores Preços</h1>
-                <strong>#EntregaGrátis</strong>
-                <form action="" class="caixa-de-procura">
-                    <i class="fas fa-search"></i>
-                    <input type="text" class="input-procura" placeholder="Escreve aqui o que procuras..." name="procura"
-                        required>
-                    <input type="submit" class="output-procura" value="Procurar">
-    
-                </form>
-            </div>
-        </section>
-        <!--Categorias de produtos-->
-        <section id="categorias">
-    
-            <div class="cabeçalho-categorias">
-                <h2> Categorias</h2>
-                <span>ALL </span>
-            </div>
-            
-            <div class="contentor-de-categorias">
-    
-            <a href="Televisores.html"class="caixa-de-categoria">
-            <img src="imagens/television_2933791.png" alt="televisores">
-            <span>Televisores</span>
-           </a>
-           <a href="Smartphones.html"class="caixa-de-categoria">
-            <img src="imagens/smartphone_7344131.png" alt="Smartphones">
-            <span>Smartphones</span>
-           </a>
-           <a href="GrandesEletrodomesticos.html"class="caixa-de-categoria">
-            <img src="imagens/amenities_2243656.png" alt=">Grandeseletrodomésticos">
-            <span>Grandes </span><span>eletrodomésticos</span>
-           </a>
-           <a href="PequenosEletrodomesticos.html"class="caixa-de-categoria">
-            <img src="imagens/coffee-maker_125691.png" alt="Pequenoseletrodomésticos">
-            <span>Pequenos </span><span>eletrodomésticos</span>
-           </a>
-           <a href="Lifestyle.html"class="caixa-de-categoria">
-            <img src="imagens/electric-shaver_80278.png" alt="Lifestyle">
-            <span>Lifestyle</span>
-           </a>
-           <a href="SmartHome.html"class="caixa-de-categoria">
-            <img src="imagens/smart-home_2668384.png" alt="SmartHome">
-            <span>Smart</span><span>Home</span>
-           </a>
-           <a href="Descktops.html"class="caixa-de-categoria">
-            <img src="imagens/computer_2004580.png" alt="Computadores">
-            <span>Desktops</span>
-           </a>
-           <a href="Laptops.html"class="caixa-de-categoria">
-            <img src="imagens/laptop_4439476.png" alt="Laptops">
-            <span>Laptops</span>
-           </a>
-           <a href="Componentes.html"class="caixa-de-categoria">
-            <img src="imagens/processor_3848994.png" alt="componentes">
-            <span>Componentes</span>
-           </a>
-           
+
+            <li><a href="Descontos.html">Campanhas descontos</a></li>
+            <li><a href="Sobrenos.html">Sobre nos</a></li>
+            <li><a href="Ajuda.html">Ajuda</a></li>
+
+        </ul>
+        <div class="right-nav">
+
+            <a href="#" class="insta">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a><a href="#" class="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
         </div>
-        </section>
-    <div class="cabeçalho-categorias">
+    </nav>
+    <!--barra de pesquisa-->
+    <section id="barraPesquisa">
+        <div class="texto">
+            <h1>Melhores Preços</h1>
+            <strong>#EntregaGrátis</strong>
+            <form action="#" class="caixa-de-procura">
+                <i class="fas fa-search"></i>
+                <input type="text" class="input-procura" placeholder="O que procuras..." name="procura"
+                    required>
+                <input type="submit" class="output-procura" value="Procurar">
+
+            </form>
+        </div>
+    </section>
+    <!--Categorias de produtos-->
+    <section id="categorias">
+
+        <div class="cabeçalho-categorias">
+            <h2> Categorias</h2>
+            <span>ALL </span>
+        </div>
+
+        <div class="contentor-de-categorias">
+
+            <a href="Televisores.html" class="caixa-de-categoria">
+                <img src="imagens/television_2933791.png" alt="televisores">
+                <span>Televisores</span>
+            </a>
+            <a href="Smartphones.html" class="caixa-de-categoria">
+                <img src="imagens/smartphone_7344131.png" alt="Smartphones">
+                <span>Smartphones</span>
+            </a>
+            <a href="GrandesEletrodomesticos.html" class="caixa-de-categoria">
+                <img src="imagens/amenities_2243656.png" alt=">Grandeseletrodomésticos">
+                <span>Grandes </span><span>eletrodomésticos</span>
+            </a>
+            <a href="PequenosEletrodomesticos.html" class="caixa-de-categoria">
+                <img src="imagens/coffee-maker_125691.png" alt="Pequenoseletrodomésticos">
+                <span>Pequenos </span><span>eletrodomésticos</span>
+            </a>
+            <a href="Lifestyle.html" class="caixa-de-categoria">
+                <img src="imagens/electric-shaver_80278.png" alt="Lifestyle">
+                <span>Lifestyle</span>
+            </a>
+            <a href="SmartHome.html" class="caixa-de-categoria">
+                <img src="imagens/smart-home_2668384.png" alt="SmartHome">
+                <span>Smart</span><span>Home</span>
+            </a>
+            <a href="Descktops.html" class="caixa-de-categoria">
+                <img src="imagens/computer_2004580.png" alt="Computadores">
+                <span>Desktops</span>
+            </a>
+            <a href="Laptops.html" class="caixa-de-categoria">
+                <img src="imagens/laptop_4439476.png" alt="Laptops">
+                <span>Laptops</span>
+            </a>
+            <a href="Componentes.html" class="caixa-de-categoria">
+                <img src="imagens/processor_3848994.png" alt="componentes">
+                <span>Componentes</span>
+            </a>
+
+        </div>
+    </section>
+   
+    <section class="cabeçalho-categorias">
         <h3>Smartphones</h3>
         <span>ALL </span>
-    </div>
+    </section>
+
     <section id="produtos">
-        <div class="banner-esquerda">
-        </div>
+        <div class="banner-esquerda"> </div>
+        <div id="contentorProdutos"> </div>
+        <div class="banner-direita"></div>
+    </section>
 
 
 
+    <footer>
+        <div class="contentor-footer">
+            <div class="logo-footer">
+                <a href="PaginaInicial.html"><span>Tec</span>Product</a>
 
-
-        <div class="contentor-produtos">
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/redminote12.jpg" alt="camera">
-                    <strong class="nome-produto">Xiaomi Redmi Note 12 4G 4GB/128GB Dual SIM Ice Blue</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador Octa-Core Snapdragon 685 </li>
-                        <li> Ecrã de 6.67" FHD+ AMOLED </li>
-                        <li>  Taxa de atualização de 120 Hz</li>
-                        <li>Bateria de 5000mAh</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">189€</strong>
-                  
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/xiaomi13t.jpg" alt="ssd">
-                    <strong class="nome-produto">Xiaomi 13T 6.67" 12GB/256GB Dual SIM Alpine</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador: Octa-core  </li>
-                        <li> Gráfica: Mali-G610</li>
-                        <li> Armazenamento: 256GB </li>
-                        <li>Memória RAM: 12GB</li>
-                        
-                        
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">699€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/iphone14.jpg" alt="Headset">
-                    <strong class="nome-produto">Apple iPhone 14 6.1" 128GB</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador A15 Bionic</li>
-                        <li>Nova CPU 6‑core </li>
-                        <li>Ecrã Super Retina XDR de 6.1 polegadas</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">869€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/xiaomipocox5.jpg" alt="frigorifico">
-                    <strong class="nome-produto">Xiaomi Poco X5 5G 6.6" 8GB/256GB Dual SIM</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador Snapdragon® 695 com processo avançado de 6 nm</li>
-                        <li></li>
-                        <li>Ecrã AMOLED FHD+ de 120 Hz</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">390€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/xiaomipocof4.jpg" alt="mic">
-                    <strong class="nome-produto">Xiaomi Poco F4 GT 6.67" 12GB/256GB Dual SIM </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador Flagship 4nm Snapdragon® 8 Gen 1 </li>
-                        <li> Carregamento HyperCharge Smart 120W;</li>
-                        <li>Tecnologia Multi-Link 5.0;</li>
-                        
-                        <li>Ecrã AMOLED 120Hz </li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">449€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/Oneplus Nord.jpg" alt="Monitormsi">
-                    <strong class="nome-produto">Oneplus Nord CE 3 Lite 5G 6.72" 8GB/128GB </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Sistema de Câmara 108 MP</li>
-                        <li>Expansão da RAM Virtual de 8GB</li>
-                        <li>Grande ecrã de 17.07cm (6.72") 120 Hz</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">299€</strong>
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/nothingphine.jpg" alt="DiscoRigido">
-                    <strong class="nome-produto"> Nothing Phone 6.7" 12GB/512GB Dual SIM Branco</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador Snapdragon® 8+ Gen 1  </li>
-                        <li> Ecrã 120Hz de 6.7" com painel OLED;</li>
-                        <li>Dupla câmara traseira de 50MP com sensor Sony e Samsung;</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">699€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/glaxys23.jpg" alt="pcLenovo">
-                    <strong class="nome-produto">Samsung Galaxy S23 FE  8GB/128GB </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li> Octa-core </li>
-                        <li>  Dynamic AMOLED 2X 120Hz</li>
-                        <li>Dynamic AMOLED 2X, 120Hz </li>
-                        <li>50 MP, f/1.8, 24mm </li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">739€</strong>
-             
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/vivoy21s.jpg" alt="grafica">
-                    <strong class="nome-produto"> Vivo Y21s 6.51" 4GB/128GB Dual SIM</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Câmara principal de 50 MP </li>
-                        <li>  Bateria de 5000 mAh + Carga Rápida de 18W</li>
-                        <li>Design fino e elegante com 8 mm de espessura</li>
-                       
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">209€</strong>
-                 
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/samsunggalaxyz.jpg" alt="aspirador">
-                    <strong class="nome-produto">Smartphone Samsung Galaxy Z Fold 5 7.6" 12GB/512GB </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>  Potente CPU Snapdragon 8 Gen 2</li>
-                        <li>  Ecrã interior de 7.6" </li>
-                        <li>  Ecrã exterior de 6.2" Dynamic </li>
-                        <li> Experiência fotográfica de topo</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">1899€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/blackview a100.jpg" alt="Monitor">
-                    <strong class="nome-produto">Blackview A100 6.6" 6GB/128GB Dual SIM </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>crã 6.67" </li>
-                        <li>  Câmara Traseira 12MP</li>
-                        <li>Bateria 4680mAh</li>
-                        <li>  Android 11</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">169€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/oppoA57s.jpg" alt="spray">
-                    <strong class="nome-produto">Smarthpone Oppo A57s 6.56" 4GB/128GB</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Carregamento SuperVooc de 33W</li>
-                        <li>Bateria de 5000mAh de Longa Duração</li>
-                            <li>   Câmara Dupla de 50MP com IA</li>
-                        <li> Ecrã de 6.56" com Cores Vibrantes</li>
-                    </ul>
-
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">229€</strong>
-                    
-                </div>
-            </div>
-        </div>
-     
-
-
-            <div class="banner-direita"></div>
-   
-   
-        </section>
-
-
-
-        <footer>
-            <div class="contentor-footer">
-                <div class="logo-footer">
-                    <a href="PaginaInicial.html"><span>Tec</span>Product</a></a>
-               
                 <div class="social-footer">
                     <a href="https://twitter.com/tecproduct25180"><i class="fab fa-x"></i></a>
                     <a href="https://www.instagram.com/tecproducts280/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i
+                            class="fab fa-youtube"></i></a>
                 </div>
-            
-            </div> 
+
+            </div>
             <div class="links-footer">
                 <strong>Categorias</strong>
                 <ul>
@@ -430,18 +151,18 @@
                 <ul>
                     <li><a href="#">Telefone:+351253000000</a></li>
                     <li><a href="#">Email:tecproducts280@gmail.com</a></li>
-               
+
                 </ul>
             </div>
-            </div>
-             
-            </footer>
-            
-            
-            
-            
-            
-            
-            </body>
-            
-            </html>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

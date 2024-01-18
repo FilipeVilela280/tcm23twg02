@@ -7,6 +7,7 @@
 border-color: black;
 
 }
+/*-----------Menu------------ */
 ul{
     list-style:none;
     
@@ -53,7 +54,7 @@ body{
     color:rgb(130, 255, 130); 
     
 }
-
+/*-----------Logo------------ */
 .logo{
    
    font-weight: bolder;
@@ -65,6 +66,7 @@ letter-spacing:1px;
 .navigation a:hover{
     color:rgb(130, 255, 130); 
 }
+/*-----------Redes Sociais/Carinho------------ */
 .right-nav{
    display: grid;
    grid-template-columns: auto auto;
@@ -113,11 +115,11 @@ position: relative;
     font-size: small;
  font-weight: lighter;
 }
-
+/*-----------Barra de pesquisa------------ */
 #barraPesquisa {
     
-    max-width:2000px;
-    min-width: 500px;
+   width:2000px;
+    
     width:100%;
     height: 150px;
     align-items: center;
@@ -150,11 +152,12 @@ left: 20px;
         color: red;
         font-size: xx-large;
     }
+    /*-----------Caixa de procura/Form------------ */
     .caixa-de-procura{
         background-color: rgb(255, 255, 255);
       
         width:500px;
-        min-width: 400px;
+        
         height: 40px;
         display: flex;
         align-items: center;
@@ -193,12 +196,12 @@ left: 20px;
     .caixa-de-procura .output-procura:hover{
         background-color: lightgreen;
     }
-    /*==categorias=====*/
+  /*-----------Categorias Section------------ */
     #categorias{
         display: flex;
         flex-direction: column;
         max-width: 2000px;
-        min-width: 500px;
+       
       margin: auto;
       background-color: rgb(31, 31, 31);
      
@@ -240,9 +243,9 @@ left: 20px;
         justify-content: center;
         background-color: white;
         border-radius: 50%;
-        height: 145px;
+        height: 165px;
       
-        width: 145px;
+        width: 165px;
        
         border: 2px solid rgb(255, 9, 9);
     }
@@ -255,7 +258,7 @@ left: 20px;
         color: white;
     }
     .caixa-de-categoria span{
-        font-size: 11px;
+        font-size: small;
         font-weight: 700;
        margin-top: 5px;
         color: rgb(31, 31, 31);
@@ -280,8 +283,10 @@ left: 20px;
     .banner-esquerda{
         width: 180px;
         height: 1400px;
-        background-color: rgb(255, 0, 0);
-        margin-top: 10px;
+       background-image: url(imagens/lateral.jpg);
+    background-color: red;
+       background-size: 160px;
+       background-attachment: fixed;
     }
     .contentor-informaçao{
         width: 1640px;
@@ -291,6 +296,7 @@ left: 20px;
         
         margin-top: 10px;
     }
+ /*-----------AjudaDiv------------ */
     .ajuda-texto{
         display: flex;
         
@@ -317,6 +323,7 @@ left: 20px;
         opacity: 0.5;
         
     }
+     /*-----------Contactos/localizacão------------ */
     .contentor-contactos{
         display: flex;
     margin: 50px auto;
@@ -348,6 +355,7 @@ left: 20px;
         font-weight: bold;
         color: white;
     }
+     /*-----------SendEmail/Form------------ */
     .sendEmail{
         width: 40%;
         padding:40px; 
@@ -416,11 +424,11 @@ background-color:  #3b3b3b;;
    
 
 }
-
+ /*-----------Horários------------ */
 .horario-atendimento{
         
+
        
-       background-color: gray;
     margin: 0px auto;
     margin-bottom: 150px;
     margin-top: 20px;
@@ -428,30 +436,40 @@ background-color:  #3b3b3b;;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
+   
 
 }
+
 .horario-atendimento .cabeçalho-horario{
     font-size: 19px;
     font-weight: bold;
     color: white;
+    
 }
 .tabela-horario .dia{
    font-size: 18px;
 color: white;
 }
-
+.tabela-horario .abre{
+    font-size: 18px;
+opacity: 0.6;
+margin-left: 10px;
+ }
 
 
 
 
 .banner-direita{
-        width: 180px;
-        height: 1400px;
-        background-color: rgb(255, 0, 0);
-        margin-top: 10px;
-    }
-    
-    footer{
+    width: 180px;
+    height: 1400px;
+   background-image: url(imagens/lateral.jpg);
+background-color: red;
+   background-size: 160px;
+   background-attachment: fixed;
+}
+/*-----------Footer------------ */ 
+footer{
         background-color:rgb(31, 31, 31);
     padding: 50px 20px;
     margin-top: 10px;
@@ -464,6 +482,7 @@ color: white;
         align-items:flex-start ;
     
     }
+    /*-----------Logo------------ */
     .logo-footer{
         display: flex;
         flex-direction: column;
@@ -481,6 +500,7 @@ color: white;
         font-weight: 700;
         color: red;
     }
+    /*-----------Redes Sociais Fotter------------ */
     .social-footer{
         display: flex;
         margin-top: 10px;
@@ -499,6 +519,7 @@ color: white;
     .social-footer a:hover {
         background-color: rgb(9, 255, 103);
     }
+    /*-----------NavBar Footer------------ */
     .links-footer strong{
         color: white;
         font-size: 1.4rem;
@@ -518,4 +539,327 @@ color: white;
     .links-footer li a:hover{
         opacity: 1;
     }
+      /*-----------Media Mobile------------ */
+    @media(max-width:500px){
+        .navigation{
+         display: flex;
+         justify-content: left;
+         width: 480px;
   
+     }
+    /*-----------Logo------------ */
+     .logo{
+        
+         font-weight: bolder;
+      font-size: small;    
+      letter-spacing:1px;
+          color: white;
+          position: relative;
+          right:  30px;
+             
+       
+      
+      }    
+     .logo span{
+         
+             font-size: medium;
+             font-weight: 700;
+             color: red;
+             position: relative;
+             bottom: 20px;
+         
+     }
+           /*-----------Menu------------ */
+         .menu li a{
+            display: flex;
+            flex-direction: column;
+          width: 80px;
+            font-size:9px;
+            margin: 0px 5px;
+           
+            width: 80px;
+            height: 60px;
+            position: relative;
+            right: 20px;
+           
+         
+         }
+         .right-nav .insta{
+             display: none;
+           
+         }
+              /*-----------BarraPesquisa------------ */
+         #barraPesquisa {
+         
+           
+            background-color: #3b3b3b;
+           width: 480px;
+             
+             }
+           .texto h1{
+             display: none;
+         
+         
+         }
+          .texto strong{
+         display: none;
+         }
+          /*-----------Caixa de Procura------------ */
+         .caixa-de-procura{
+             width: 170px;
+             position:relative;
+             top: 50px;
+             left: 50px;
+                 
+             }
+             .caixa-de-procura{
+                width: 300px;
+                position:relative;
+                top: 50px;
+                left: 10px;
+                    
+                }
+                .caixa-de-procura i{
+                    font-size: 20px;
+                    margin: 0px 0px ;  
+                }
+                .caixa-de-procura .input-procura {
+                  font-size: 16px;
+                 
+                }
+             .caixa-de-procura .output-procura{
+                 width: 200px;
+                height: 30px;
+                font-size: 6px;
+       
+                
+                
+             }
+            /*-----------Categorias Section------------ */
+             #categorias{
+             width: 480px;
+         
+            }
+             .cabeçalho-categorias h2 {
+                 font-size: 11px;
+                 position: relative;
+                 right: 90px;
+                 
+              }
+              .cabeçalho-categorias h3 {
+                 font-size: 11px;
+                 position: relative;
+                 right: 90px;
+          
+              }
+              .cabeçalho-categorias span{
+                 font-size: 10px;
+                
+          
+              }
+             
+             /*-----------Categorias Section------------ */
+             .contentor-de-categorias{
+                 width: 420px;
+                 margin: 0px 10px;
+                 justify-content: center;
+                 
+             }
+             .caixa-de-categoria img{
+         
+                 width: 20px;
+                 height: 20px;
+                 
+                 }
+             .caixa-de-categoria{
+                 width:50px;
+                 height:50px;
+                 
+                margin-bottom: 10px;
+                 border:1px solid red;
+                 
+             }
+             .caixa-de-categoria span{
+                 display: none;
+             }
+     
+            /*-----------Ajuda Section------------ */
+             .banner-esquerda{
+                display: none;
+                  
+                  
+                  }
+               
+                 
+                  .banner-direita{
+                      display: none;
+                      
+                      
+                      }
+          
+         
+           
+            
+                      .contentor-informaçao{
+                        width: 480px;
+                        background-color: rgb(31, 31, 31);
+                        display: block;
+                        
+                        
+                        margin-top: 10px;
+                    }
+                 
+                    .ajuda-texto h4{
+                        font-size: 20px;
+                
+                    }
+                    
+                    .ajuda-texto p{
+                       
+                        margin:5px 40px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: white;
+                        opacity: 0.5;
+                        
+                    }
+                    
+                
+                /*-----------Contactos/SendEmail/Texto------------ */
+                    .caixa-informaçao{
+                        width: 200px;
+                        height: 150px;
+                        display: flex;
+                       margin-left: 8px
+                    ;
+                      
+                    float: left;
+                    }
+                    .caixa-informaçao i{
+                        font-size: 20px;
+                        position: relative;
+                       right: 26px;
+
+                    }
+                    .caixa-informaçao p{
+                        font-size: 7px;
+                        color: white;
+                   width: 100px;
+                
+                        
+                    }
+                    .caixa-informaçao h4{
+                        font-size: 11px;
+                        font-weight: bold;
+                        color: white;
+                        position: relative;
+                       right: 27px;
+                    }
+                    .sendEmail{
+                        width: 400px;
+                    }
+                    .sendEmail h4{
+                        
+                        font-size: 20px;
+                    }
+                    .caixa-input span{
+                        
+                        font-size: 9px;
+                    }
+                
+           /*-----------Footer------------ */
+                    .links-footer strong{
+             font-size: large;
+             }
+             .links-footer ul li a{
+                 font-size: 9px;
+             }
+         
+         
+         
+                     
+                     .contentor-footer{
+                         width:480px;
+                         
+                        
+                     }
+                     .logo-footer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .logo-footer span{
+                     font-size: 10px;
+                    }
+                    .logo-footer a{
+                        
+                        font-size: 10px;
+                        position: relative;
+                        right: 20px;
+                        top: 9px;
+                    }
+                     .social-footer{
+                  display: block;
+                     }
+                     .social-footer a{
+                         width: 40px;
+                         height: 40px;
+                         
+                         
+                     }
+                     
+                    
+                     .links-footer strong{
+                         color: white;
+                         font-size: 11px;
+                         position: relative;
+                         right:  30px;
+                     
+                     }
+                    
+                     .links-footer ul li a{
+                    
+                    position: relative;
+                    right:  40px;
+                     }
+                    }
+                    /*-----------Media Portatil------------ */
+                    @media(max-width:1000px){
+                
+                        #categorias{
+                            width: 1520px;
+                        }
+                                       
+                        
+                                        .caixa-de-categoria{
+                                            width:130px;
+                                            height:130px;
+                                          
+                                            
+                                        }
+                                        .caixa-de-categoria img{
+                            
+                                            width: 50px;
+                                            height: 50px;
+                                            
+                                            }      
+                                            .caixa-de-categoria span{
+                            
+                                               font-size: 11px;
+                                                
+                                                }   
+        
+                                                .banner-direita{
+                                                    display: none;
+                                                    
+                                                    
+                                                    }
+                                                     
+                                                    .banner-esquerda{
+                                                      
+                                                        background-size: 120px;
+                                                        }  
+                                       
+                                            
+                 }

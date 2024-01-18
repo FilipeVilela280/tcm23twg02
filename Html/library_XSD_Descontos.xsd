@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.library_Descontos.org"
+    xmlns:tns="http://www.library_Descontos.org"
+    elementFormDefault="qualified">
+   
+    <element name="library_Descontos">
+        <complexType>
+            <sequence>
+                <element name="Produto" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="nome" type="string" />
+                            <element name="imagem"  >
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern
+                                            value="imagens\/[a-zA-Z0-9_-]+\.jpg"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+ 
+                            <element name="descrição" type="string"/>
+                            <element name="precoAtual" >
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern
+                                            value="\d+€"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            <element name="precoAntigo" >
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern
+                                            value="\d+€"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            
+                            <element name="vídeo" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

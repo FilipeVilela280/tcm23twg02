@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd" >
+	<Produto >
+		<nome>Xiaomi Redmi Note 12 4G 4GB/128GB Dual SIM Ice Blue</nome>
+		<imagem>imagens/redminote12.jpg</imagem>
+		<descrição>    Processador Octa-Core Snapdragon 685
+         Ecrã de 6.67" FHD+ AMOLED
+          Taxa de atualização de 120 Hz
+        Bateria de 5000mAh </descrição>
+		 <preco>189€</preco>
+		 <vídeo>https://youtu.be/T1g0qiQ4aVk?si=yAYpNPVS8O7U_ZCb</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Xiaomi 13T 6.67" 12GB/256GB Dual SIM Alpine</nome>
+		<imagem>imagens/xiaomi13t.jpg</imagem>
+		<descrição>     Processador: Octa-core  
+        Gráfica: Mali-G610
+        Armazenamento: 256GB 
+       Memória RAM: 12GB</descrição>
+		 <preco>699€</preco>
+		 <vídeo>https://youtu.be/YJLpV6u5G4w?si=q_RJvO6YwMjlWyd_</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Apple iPhone 14 6.1" 128GB</nome>
+		<imagem>imagens/iphone14.jpg</imagem>
+		<descrição>    Processador A15 Bionic
+        Nova CPU 6core 
+        Ecrã Super Retina XDR de 6.1 polegadas</descrição>
+		 <preco>869€</preco>
+		 <vídeo>https://youtu.be/Ht90J5MwpUg?si=ySdwoFwBFlGZ27rV</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Xiaomi Poco X5 5G 6.6" 8GB/256GB Dual SIM</nome>
+		<imagem>imagens/xiaomipocox5.jpg</imagem>
+		<descrição>Processador Snapdragon® 695 com processo avançado de 6 nm
+        Ecrã AMOLED FHD+ de 120 Hz </descrição>
+		 <preco>390€</preco>
+		 <vídeo>https://youtu.be/MOqaYHZZVkI?si=P03EPdRaX1vOctuM</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Xiaomi Poco F4 GT 6.67" 12GB/256GB Dual SIM </nome>
+		<imagem>imagens/xiaomipocof4.jpg</imagem>
+		<descrição>   Processador Flagship 4nm Snapdragon® 8 Gen 1 
+        Carregamento HyperCharge Smart 120W;
+       Tecnologia Multi-Link 5.0;
+        </descrição>
+		 <preco>449€</preco>
+		 <vídeo>https://youtu.be/713Xmj1jlVg?si=7nRNKDKQybZPb5ET</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Oneplus Nord CE 3 Lite 5G 6.72" 8GB/128GB </nome>
+		<imagem>imagens/OneplusNord.jpg</imagem>
+		<descrição>Sistema de Câmara 108 MP
+       Expansão da RAM Virtual de 8GB
+       Grande ecrã de 17.07cm (6.72") 120 Hz</descrição>
+		 <preco>299€</preco>
+		 <vídeo>https://youtu.be/-ljUiXk0Ak0?si=KWHgMGilTEn_akXo</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Nothing Phone 6.7" 12GB/512GB Dual SIM Branco</nome>
+		<imagem>imagens/nothingphine.jpg</imagem>
+		<descrição>
+          Processador Snapdragon® 8+ Gen 1  
+           Ecrã 120Hz de 6.7" com painel OLED;
+          Dupla câmara traseira de 50MP com sensor Sony e Samsung;</descrição>
+		 <preco>699€</preco>
+		 <vídeo>https://youtu.be/Jb88eui8SqQ?si=hM0YLnXOaJyxlbS9</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Samsung Galaxy S23 FE  8GB/128GB </nome>
+		<imagem>imagens/glaxys23.jpg</imagem>
+		<descrição>     Octa-core 
+        Dynamic AMOLED 2X 120Hz
+       Dynamic AMOLED 2X, 120Hz 
+       50 MP, f/1.8, 24mm </descrição>
+		 <preco>739€</preco>
+		 <vídeo>https://youtu.be/XaDU2xJT9pg?si=1o1VB42NiivzfQUU</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Vivo Y21s 6.51" 4GB/128GB Dual SIM</nome>
+		<imagem>imagens/vivoy21s.jpg</imagem>
+		<descrição>Câmara principal de 50 MP 
+          Bateria de 5000 mAh + Carga Rápida de 18W
+        Design fino e elegante com 8 mm de espessura</descrição>
+		 <preco>209€</preco>
+		 <vídeo>https://youtu.be/5dDI2yI2y_8?si=88xJ34fgkvU0QgJF</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Smartphone Samsung Galaxy Z Fold 5 7.6" 12GB/512GB</nome>
+		<imagem>imagens/samsunggalaxyz.jpg</imagem>
+		<descrição>Potente CPU Snapdragon 8 Gen 2
+      Ecrã interior de 7.6" 
+      Ecrã exterior de 6.2" Dynamic 
+     Experiência fotográfica de topo</descrição>
+		 <preco>1899€</preco>
+		 <vídeo>https://youtu.be/VjN-FmXPUFU?si=PlbgKIyEnXNw3KpC</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Blackview A100 6.6" 6GB/128GB Dual SIM </nome>
+		<imagem>imagens/blackviewa100.jpg</imagem>
+		<descrição>   crã 6.67" 
+          Câmara Traseira 12MP
+        Bateria 4680mAh
+          Android 11</descrição>
+		 <preco>169€</preco>
+		 <vídeo>https://youtu.be/h7rRlB9ytBs?si=9zHB-ZuWmwA67kee</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Smarthpone Oppo A57s 6.56" 4GB/128GB</nome>
+		<imagem>imagens/oppoA57s.jpg</imagem>
+		<descrição>     Carregamento SuperVooc de 33W
+       Bateria de 5000mAh de Longa Duração
+              Câmara Dupla de 50MP com IA
+        Ecrã de 6.56" com Cores Vibrantes</descrição>
+		 <preco>229€</preco>
+		 <vídeo>https://youtu.be/erXJN0H5S34?si=Zl97QSJMCXPL85Zf</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.library.org library_XSD.xsd">
+
+	<Produto>
+		<nome>PC LENOVO IC 3 07ADA5-457</nome>
+		<imagem>imagens/PCLENOVIC307ADA5-457.jpg</imagem>
+		<descrição> AMD Athlon
+ 128 GB
+  Memória RAM_ 4
+ AMD Radeon Graphics </descrição>
+		<preco>349€</preco>
+		<vídeo>https://youtu.be/NP2Q_SnPaJc?si=vSQWQb6lVb0PhVHr</vídeo>
+	</Produto>
+
+	<Produto>
+
+		<nome>PC LENOVO V530S-7ICR-11BM002APG</nome>
+		<imagem>imagens/PCLENOVOV530S-7ICR-11BM002APG.jpg</imagem>
+		<descrição>Intel Core i5  
+  Memória RAM_ 8
+     Intel® UHD Graphics 630</descrição>
+		<preco>749€</preco>
+		<vídeo>https://youtu.be/m7MK9oERU1w?si=M9WFZlXGRx-rqUrM</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC LENOVO V530S-7ICR-11BM002MPG</nome>
+		<imagem>imagens/PCLENOVOV530S-7ICR-11BM002APG.jpg</imagem>
+		<descrição>Intel Core i7
+ Memória RAM_ 8
+ Intel® UHD Graphics 630</descrição>
+		<preco>819€</preco>
+		<vídeo>PC LENOVO V530S-7ICR-11BM002MPG</vídeo>
+	</Produto>
+
+
+	<Produto>
+		<nome>Desktop Gaming Lenovo Legion T5 </nome>
+		<imagem>imagens/DesktopGamingLenovoLegionT5.jpg</imagem>
+		<descrição>AMD Ryzen 7 5700G Octa Core
+ Memória RAM
+            16 GB
+    NVIDIA GeForce RTX 3070 </descrição>
+		<preco>1399€</preco>
+		<vídeo>https://youtu.be/c9TPrOewFKY?si=ZFl5pVRiJEkUXDP_</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>MAC STUDIO APPLE M2 ULT 1TB 2023</nome>
+		<imagem>imagens/MACSTUDIOAPPLEM2ULT1TB2023.jpg</imagem>
+		<descrição>1 TB
+        
+ 8 GB
+        
+        
+Ecrã AMOLED 120Hz 
+        </descrição>
+		<preco>4164€</preco>
+		<vídeo>https://youtu.be/LS2f-Ko0GYo?si=NhwDhlmcAdfHJdTo</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC ASUS S500MC I3-10100</nome>
+		<imagem>imagens/PCASUSS500MCI3-10100.jpg</imagem>
+		<descrição>Intel Core i3
+  Memória RAM_ 8</descrição>
+		<preco>384€</preco>
+		<vídeo>https://youtu.be/-8CghLxCVdY?si=mm6ony0NiYgCEVHU</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC ACER ASPIRE XC-840</nome>
+		<imagem>imagens/Pcacer.jpg</imagem>
+		<descrição>
+    Intel Celeron
+     Memória RAM_ 4
+         Intel UHD
+    </descrição>
+		<preco>129€</preco>
+		<vídeo>https://youtu.be/F-0zLZz2N_E?si=P6pI06BX1pkVvRlD</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC FUJITSU ESPRIMO D711EPC71MPT</nome>
+		<imagem>imagens/PCFUJITSUESPRIMOD711EPC71MPT.jpg</imagem>
+		<descrição> Intel
+
+ Memória RAM_ 16
+      </descrição>
+		<preco>1259€</preco>
+		<vídeo>https://youtu.be/XdjYhFzQmsY?si=qojsqLW-9XtW1xF4</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC HP GT22-0022NP</nome>
+		<imagem>imagens/PCHPGT22-0022NP.jpg</imagem>
+		<descrição>  AMD Ryzen 9 
+  512 GB 
+      Memória RAM_ 32 
+          NVIDIA GeForce RTX 3070 Ti </descrição>
+		<preco>2586€</preco>
+		<vídeo>https://youtu.be/eSqrq8v-QLs?si=GQQ-8bZsbwJ5SYqY</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>MAC STUDIO APPLE M2 MAX 512G 2023</nome>
+		<imagem>imagens/MACSTUDIOAPPLEM2MAX512G2023.jpg</imagem>
+		<descrição>512 GB
+Memória RAM_ 32
+       
+       </descrição>
+		<preco>2440€</preco>
+		<vídeo>https://youtu.be/ohv1BTr_MRY?si=zzf6Dfieau08KWld</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>PC ACER ASPIRE XC-840 239</nome>
+		<imagem>imagens/PCACERASPIREXC-840239.jpg</imagem>
+		<descrição>Intel Celeron
+   256 GB
+  Memória RAM_ 4
+     Intel UHD</descrição>
+		<preco>350€</preco>
+		<vídeo>https://youtu.be/4Rsr4z1OqdU?si=cimsfhq63VJ6MNi3</vídeo>
+	</Produto>
+
+
+	<Produto>
+
+		<nome>Desktop HP M01-F3002NP</nome>
+		<imagem>imagens/DesktopHPM01-F3002NP.jpg</imagem>
+		<descrição>AMD Ryzen 5
+512 GB                         
+    Memória RAM_ 8
+    AMD Radeon Graphics
+    </descrição>
+		<preco>229€</preco>
+		<vídeo>https://youtu.be/iERuInc57Jg?si=j1-KllhjuV7Oayer</vídeo>
+	</Produto>
+
+
+</library>

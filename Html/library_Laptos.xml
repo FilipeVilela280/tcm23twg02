@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd" >
+
+	<Produto >
+		<nome>Portátil Victus by HP Gaming Laptop</nome>
+		<imagem>imagens/PortatilVictusbyHPGamingLaptop.jpg</imagem>
+		<descrição>AMD Ryzen™ 7 7840HS 8-Core
+        512 GB
+         Memória RAM_16GB
+        NVIDIA® GeForce RTX™ 4060 8GB GDDR6 </descrição>
+		 <preco>1099€</preco>
+		 <vídeo>https://youtu.be/7tymDB6ZBLs?si=p0Ru6-jOu9Uv6vTI</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Portátil Lenovo Legion 5 </nome>
+		<imagem>imagens/PortatilLenovoLegion5.jpg</imagem>
+		<descrição>AMD Ryzen™ 5 5600H Hexa-Core
+        Memória RAM_8GB
+            NVIDIA GeForce RTX 3060 6GB</descrição>
+		 <preco>899€</preco>
+		 <vídeo>https://youtu.be/laWGy3HLhxU?si=F_FRa9p6UZGCY5Hg</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Apple MacBook Pro 14.2</nome>
+		<imagem>imagens/AppleMacBookPro.jpg</imagem>
+		<descrição>
+        M3 Pro CPU 11‑core
+        GPU 14‑core
+        SSD 1TB
+        36GB RAM
+*</descrição>
+		 <preco>2999€</preco>
+		 <vídeo>https://youtu.be/0pg_Y41waaE?si=hL0Q-qC9N95DnTMZ</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>Portátil MSI 15.6" Cyborg 15</nome>
+		<imagem>imagens/PortatilMSICyborg15.jpg</imagem>
+		<descrição>ntel® Core™ i5-12450H 8-Core
+      Memória RAM 16 GB
+      NVIDIA GeForce® RTX 4060 8GB GDDR6
+     </descrição>
+		 <preco>1199€</preco>
+		 <vídeo>https://youtu.be/H1PGMDA6C6A?si=4uDTDcMxKNwWlBw3</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>portátil LG gram 17Z90Q 17" WQXGA</nome>
+		<imagem>imagens/ortatilLGgram17Z90QWQXGA.jpg</imagem>
+		<descrição>   Intel® Core™ i5-1240P 12-Core
+        Memória RAM 16 GB
+       Intel® Iris® Xe Graphics </descrição>
+		 <preco>1049€</preco>
+		 <vídeo>https://youtu.be/j-NocnFWcAc?si=KFan_LL4QoheNTVK</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil Lenovo IdeaPad Gaming 3 </nome>
+		<imagem>imagens/PortatilLenovoIdeaPadGaming3.jpg</imagem>
+		<descrição>  AMD Ryzen™ 5 5600H Hexa-Core
+         Memória RAM 8GB
+        NVIDIA GeForce RTX 3050 4GB </descrição>
+		 <preco>649€</preco>
+		 <vídeo>https://youtu.be/qHUDshF8Pb8?si=RtPd1bwUkLMnrKz5</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil MSI Bravo 17</nome>
+		<imagem>imagens/PortatilMSIBravo17.jpg</imagem>
+		<descrição>
+           AMD Ryzen™ 7
+            Memória RAM_16GB
+               NVIDIA GeForce RTX 4060 8GB </descrição>
+		 <preco>1249€</preco>
+		 <vídeo>https://youtu.be/NSrgJiSVApc?si=yO9YF4L7Iq3c99YC</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil Asus VivoBook 15 K513</nome>
+		<imagem>imagens/PortatilAsusVivoBook15K513.jpg</imagem>
+		<descrição>Intel® Core™ i5-1135G7 Quad-Core
+        Memória RAM_8G
+       GeForce MX330 2GB GDDR5</descrição>
+		 <preco>629€</preco>
+		 <vídeo>https://youtu.be/O0OnkJ9tJ84?si=XwvOhDacu2c_Jf69</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Lenovo IdeaPad Duet 3 Chromebook</nome>
+		<imagem>imagens/enovoIdeaPadDuet3Chromebook.jpg</imagem>
+		<descrição>Qualcomm Snapdragon 7c Gen 2 
+         Memória RAM_ 4G 
+              Qualcomm Adreno</descrição>
+		 <preco>2586€</preco>
+		 <vídeo>https://youtu.be/2ge6-AtCOsY?si=DTT2k-X0Z3V5tuGx</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil Asus Zenbook 15 OLED</nome>
+		<imagem>imagens/PortatilAsusZenbook15OLED.jpg</imagem>
+		<descrição>  AMD Ryzen™ 7 7735U 8-Core
+       Memória RAM_ 16g
+       AMD Radeon™ 680M
+       SSD 512GB</descrição>
+		 <preco>1049€</preco>
+		 <vídeo>https://youtu.be/ChiEWkN54kA?si=ekqzZ79Wakk6nGW4</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil OMEN by HP Gaming Laptop</nome>
+		<imagem>imagens/PortatilOMENbyHPGamingLaptop16-n0009np.jpg</imagem>
+		<descrição>    AMD Ryzen™ 9 6900HX 8-Core
+        SSD 1 TB
+          Memória RAM_32
+        AMD Radeon™ RX 6650M 8GB GDDR6</descrição>
+		 <preco>2190€</preco>
+		 <vídeo>https://youtu.be/vBmiAYdAstY?si=i-WCQSm4z7_ZCJpX</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Portátil Lenovo ThinkPad T14 Gen 4</nome>
+		<imagem>imagens/PortatilLenovoThinkPadT14Gen4.jpg</imagem>
+		<descrição>    Intel® Core™ i7-1355U 10-Core
+       SSD 512GB                        
+           Memória RAM_ 16
+           Intel® Iris® Xe Graphic</descrição>
+		 <preco>2159€</preco>
+		 <vídeo>https://youtu.be/ldK7Z0a6COY?si=OCZXXKdiHRyafh_Y</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>

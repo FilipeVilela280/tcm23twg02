@@ -7,6 +7,7 @@
 border-color: black;
 
 }
+/*-----------Menu------------ */
 ul{
     list-style:none;
     
@@ -53,7 +54,7 @@ body{
     color:rgb(130, 255, 130); 
     
 }
-
+/*-----------Logo------------ */
 .logo{
    
    font-weight: bolder;
@@ -65,6 +66,7 @@ letter-spacing:1px;
 .navigation a:hover{
     color:rgb(130, 255, 130); 
 }
+/*-----------Redes Sociais/Carinho------------ */
 .right-nav{
    display: grid;
    grid-template-columns: auto auto;
@@ -113,11 +115,11 @@ position: relative;
     font-size: small;
  font-weight: lighter;
 }
-
+/*-----------Barra de pesquisa------------ */
 #barraPesquisa {
     
-    max-width:2000px;
-    min-width: 500px;
+  width:2000px;
+    
     width:100%;
     height: 150px;
     align-items: center;
@@ -150,11 +152,12 @@ left: 20px;
         color: red;
         font-size: xx-large;
     }
+     /*-----------Caixa de procura/Form------------ */
     .caixa-de-procura{
         background-color: rgb(255, 255, 255);
       
         width:500px;
-        min-width: 400px;
+       
         height: 40px;
         display: flex;
         align-items: center;
@@ -198,8 +201,8 @@ left: 20px;
         display: flex;
         flex-direction: column;
         max-width: 2000px;
-        min-width: 500px;
-      margin: auto;
+       
+  
       background-color: rgb(31, 31, 31);
      
     }
@@ -268,14 +271,14 @@ left: 20px;
         border: 1px solid rgb(9, 255, 103);
     }
     
-    
+     /*-----------SobrenosSection------------ */
     #sobrenos{
         display: flex;
     }
      .banner-esquerda{
         width: 180px;
       
-          height: 1100px;
+          height: 1010px;
            background-image: url(imagens/lateral.jpg);
         background-color: red;
            background-size: 160px;
@@ -312,19 +315,14 @@ left: 20px;
     .banner-direita{
         width: 180px;
       
-          height: 1100px;
+          height: 1010px;
            background-image: url(imagens/lateral.jpg);
         background-color: red;
            background-size: 160px;
         align-items: center;
            background-attachment: fixed;
         }
-        
-   
-    
-    
-    
-    
+        /*-----------Footer------------ */
     footer{
         background-color:rgb(31, 31, 31);
     padding: 50px 20px;
@@ -337,6 +335,7 @@ left: 20px;
         align-items:flex-start ;
     
     }
+  /*-----------Logo------------ */
     .logo-footer{
         display: flex;
         flex-direction: column;
@@ -354,6 +353,7 @@ left: 20px;
         font-weight: 700;
         color: red;
     }
+    /*-----------Redes Sociais Fotter------------ */
     .social-footer{
         display: flex;
         margin-top: 10px;
@@ -372,6 +372,7 @@ left: 20px;
     .social-footer a:hover {
         background-color: rgb(9, 255, 103);
     }
+   /*-----------NavBar Footer------------ */
     .links-footer strong{
         color: white;
         font-size: 1.4rem;
@@ -391,255 +392,248 @@ left: 20px;
     .links-footer li a:hover{
         opacity: 1;
     }
-    
-    @media(max-width:1200px){
-    
-    
-    
+    /*-----------Media Mobile------------ */
+    @media(max-width:500px){
         .navigation{
+         display: flex;
+         justify-content: left;
+         width: 480px;
+
+     }
+            /*-----------Logo------------ */     
+     .logo{
+        
+         font-weight: bolder;
+      font-size: small;    
+      letter-spacing:1px;
+          color: white;
+          position: relative;
+          right:  30px;
+  
+      }    
+     .logo span{
+         
+             font-size: medium;
+             font-weight: 700;
+             color: red;
+             position: relative;
+             bottom: 20px;  
+     }
+       /*-----------Menu------------ */
+         .menu li a{
+            display: flex;
+            flex-direction: column;
+          width: 80px;
+            font-size:9px;
+            margin: 0px 5px;
            
-            max-width:1500px;
-        
-        }
-        .menu li a{
-    
-    font-size: small;
-        }
-       
-        .logo{
-       
-         
-         font-size: large;    
-         }
-         #barraPesquisa{
-           
-            background-size:cover;
-         }
-         .texto h1{
-            font-size: 40px;
-         }
-         .texto strong{
-        font-size: 25px; 
-        
-        }
-        .caixa-de-procura{
-        width: 100px;
-        position:absolute ;
-        top: 40px;
-        left: 300px;    
-        }
-        .caixa-de-categoria{
-            width:100px;
-            height:100px;
-        }
-        .caixa-de-categoria img{
-        
-        width: 20px;
-        height: 20px;
-        
-        }
-        .poster-campanha{
-     
-            background-repeat: no-repeat;
-         background-attachment: fixed;
-     
-          background-position-x: -100px;
-            
-        }
-    
-        .contentor-produtos{
-            width:600px;
-            background-color: rgb(31, 31, 31);
-        display:grid;
-         
-         grid-template-columns: repeat(1,1fr) ;
-    }
-    
-    
-    
-    
-    
-    
-    .caixa-cliente p{
-        font-size: 9px;
-    }
-    .banner-esquerda{
-    height: 4000px;
-    
-    
-    }
-    .banner-direita{
-        height: 4000px;
-        
-        
-        }
-    
-    }
-    @media(max-width:600px){
-       .navigation{
-        display: flex;
-        justify-content: left;
-        width: 500px;
-    }
-       
-        .logo span{
-        
-            font-size: medium;
-            font-weight: 700;
-            color: red;
-        }
-        .logo span a{
-        
-            font-size: small;
-         
-        }
-        .menu li a{
-           display: flex;
-           flex-direction: column;
-           font-size:9px;
-           margin: 0px 5px;
-        }
-        .right-nav .insta{
-            display: none;
-          }
-          .texto h1{
-            font-size: 20px;
+            width: 80px;
+            height: 60px;
             position: relative;
-            right: 50px;
-        }
-         .texto strong{
-        font-size: 15px; 
-        position: relative;
-            right: 50px;
-        }
-        .cabeçalho-categorias h2{
-            font-size: large;
-            
-     
+            right: 20px;
+           
+         
          }
-        
-        
-        
-        .caixa-de-procura{
-            width: 170px;
-            position:absolute;
-            top: 60px;
-            left: 100px;
+         .right-nav .insta{
+             display: none;
+           
+         }
+         /*-----------Barra Pesquisas------------ */ 
+         #barraPesquisa {
+         
+           
+            background-color: #3b3b3b;
+           width: 480px;
+             
+             }
+           .texto h1{
+             display: none;
+         
+         
+         }
+          .texto strong{
+         display: none;
+         }
+         .caixa-de-procura{
+            width: 300px;
+            position:relative;
+            top: 50px;
+            left: 10px;
                 
             }
+            /*-----------Caixa de Procura------------ */
             .caixa-de-procura i{
-                font-size: 15px;
-               
+                font-size: 20px;
                 margin: 0px 0px ;  
             }
             .caixa-de-procura .input-procura {
-              font-size: 6px;
+              font-size: 16px;
              
             }
-            .caixa-de-procura .output-procura{
-                width: 60px;
-               height: 30px;
-               font-size: 10px;
-               position: relative;
-               left: 70px;
-            }
+             .caixa-de-procura .output-procura{
+                 width: 70px;
+                height: 30px;
+                font-size: 6px;
         
-            .contentor-de-categorias{
-                width: 400px;
-                margin: 0px 10px;
-                justify-content: center;
-                
+             }
+            #categorias{
+             width: 480px;
+         
             }
-            .caixa-de-categoria{
-                width:50px;
-                height:50px;
+             .cabeçalho-categorias h2 {
+                 font-size: 11px;
+                 position: relative;
+                 right: 90px;
+                 
+              }
+              .cabeçalho-categorias h3 {
+                 font-size: 11px;
+                 position: relative;
+                 right: 90px;
+          
+              }
+              .cabeçalho-categorias span{
+                 font-size: 10px;
                 
-                
-                border:1px solid red;
-                
-            }
-            .caixa-de-categoria span{
-                display: none;
-            }
-            
-            .contentor-produtos{
-       width: 500px;
-            display:grid;
-             grid-template-columns: repeat(1,1fr) ;
-        
-            }
-            .informação-produto{
-              width: 100px;
-            
-                
-            }
-            .informação-produto ul{
-                font-size:9px ;
-                
+          
+              }
              
-                
-               
-            }
-            .informação-produto .video{
-                color: red;
-                font-size: 10px;
-            
-            
-            }
-          
-          
-            
-            .caixa-cliente{
-                width: 115px;
-            
-            
+             
+             .contentor-de-categorias{
+                 width: 420px;
+                 margin: 0px 10px;
+                 justify-content: center;
+                 
              }
-             .perfil-cliente img{
-                width: 40px;
-                height: 40px;
-                object-fit: cover;
-                object-position: center;
-                border-radius: 50%;
+             .caixa-de-categoria img{
+         
+                 width: 20px;
+                 height: 20px;
+                 
+                 }
+             .caixa-de-categoria{
+                 width:50px;
+                 height:50px;
+                 
+                margin-bottom: 10px;
+                 border:1px solid red;
+                 
              }
-           .perfil-texto strong{
-               font-size: 11px;
-               line-height: 10%;
-              
-               
-           }
-      
-           
-           
-           .rating i{
-               color:#fdcc0d;
-               font-size: 10px;
-           
-           }
-           .caixa-cliente p{
-               color: #7c7c7c;
-           font-size: 8px;
-            }
-        
-            .links-footer strong{
-            font-size: large;
-            }
-            .links-footer ul li a{
-                font-size: 9px;
-            }
-            .banner-esquerda{
-              display: none;
-                
-                
+             .caixa-de-categoria span{
+                 display: none;
+             }
+     /*-----------Footer------------ */
+             .links-footer strong{
+             font-size: large;
+             }
+             .links-footer ul li a{
+                 font-size: 9px;
+             }
+             .banner-esquerda{
+               display: none;
+                 
+                 
+                 }
+                .contentor-sobrenos{
+                    width: 480px;
                 }
-                .banner-direita{
-                    display: none;
+                .contentor-sobrenos h3{
+                   font-size:xx-large;
+                }
+                .contentor-sobrenos p{
+                    font-size:small;
+               
+                    width: 400px;
                     
+                }
+                
+                 .banner-direita{
+                     display: none;
+                     
+                     
+                     }
+       
+                     .contentor-footer{
+                         width:480px;
+                         margin: auto;
+                         display: flex;
+                         justify-content:space-around;
+                         align-items:flex-start ;
+                     
+                     }
+                     .logo-footer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .logo-footer span{
+                     font-size: 10px;
+                    }
+                    .logo-footer a{
+                        
+                        font-size: 10px;
+                        position: relative;
+                        right: 20px;
+                        top: 9px;
+                    }
+                     .social-footer{
+                  display: block;
+                     }
+                     .social-footer a{
+                         width: 40px;
+                         height: 40px;
+                         
+                         
+                     }
+                 
+                     .links-footer strong{
+                        color: white;
+                        font-size: 11px;
+                        position: relative;
+                        right:  30px;
                     
                     }
-        
-        
-        
-        }
-    
-    
-    
+                   
+                    .links-footer ul li a{
+                   
+                   position: relative;
+                   right:  40px;
+                    }
+                }
+                 /*-----------Media Portatil------------ */   
+                @media(max-width:1000px){
+                
+                        #categorias{
+                            width: 1520px;
+                        }
+                                       
+                        
+                                        .caixa-de-categoria{
+                                            width:130px;
+                                            height:130px;
+                                          
+                                            
+                                        }
+                                        .caixa-de-categoria img{
+                            
+                                            width: 50px;
+                                            height: 50px;
+                                            
+                                            }      
+                                            .caixa-de-categoria span{
+                            
+                                               font-size: 11px;
+                                                
+                                                }   
+                                    
+                                                .banner-direita{
+                                             display: none;
+                                                    }
+
+                                                    .banner-esquerda{
+                                                      display: none;
+                                                           }
+         
+                 }
+                

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Pagina Inicial Techproducts">
     <meta name="autor" content="FilipeVilela">
+    <script src="XML_Js_Televisores.js"></script>
     <link rel="stylesheet" href="styleProdutos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,403 +15,119 @@
         rel="stylesheet">
     <title>Televisores </title>
 
-    <html>
+</head>
 
-    <body>
-        <!--Barra de navegação-->
-        <nav class="navigation">
-            <a href="#PaginaInicial.html" class="logo">
-                <span>Tec</span>Product</a>
-            <ul class="menu">
-    
-                <li><a href="PaginaInicial.html">Home</a></li>
-                <li><a href="Descontos.html">Campanhas e descontos</a></li>
-                <li><a href="Sobrenos.html">Sobre nos</a></li>
-                <li><a href="Ajuda.html">Ajuda</a></li>
-    
-            </ul>
-            <div class="right-nav">
-    
-                <a href="#" class="insta">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a><a href="#" class="carrinho">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span>0</span>
-                </a>
-            </div>
-        </nav>
-        <!--barra de pesquisa-->
-        <section id="barraPesquisa">
-            <div class="texto">
-                <h1>Melhores Preços</h1>
-                <strong>#EntregaGrátis</strong>
-                <form action="" class="caixa-de-procura">
-                    <i class="fas fa-search"></i>
-                    <input type="text" class="input-procura" placeholder="Escreve aqui o que procuras..." name="procura"
-                        required>
-                    <input type="submit" class="output-procura" value="Procurar">
-    
-                </form>
-            </div>
-        </section>
-        <!--Categorias de produtos-->
-        <section id="categorias">
-    
-            <div class="cabeçalho-categorias">
-                <h2> Categorias</h2>
-                <span>ALL </span>
-            </div>
-            
-            <div class="contentor-de-categorias">
-    
-            <a href="Televisores.html"class="caixa-de-categoria">
-            <img src="imagens/television_2933791.png" alt="televisores">
-            <span>Televisores</span>
-           </a>
-           <a href="Smartphones.html"class="caixa-de-categoria">
-            <img src="imagens/smartphone_7344131.png" alt="Smartphones">
-            <span>Smartphones</span>
-           </a>
-           <a href="GrandesEletrodomesticos.html"class="caixa-de-categoria">
-            <img src="imagens/amenities_2243656.png" alt=">Grandeseletrodomésticos">
-            <span>Grandes </span><span>eletrodomésticos</span>
-           </a>
-           <a href="PequenosEletrodomesticos.html"class="caixa-de-categoria">
-            <img src="imagens/coffee-maker_125691.png" alt="Pequenoseletrodomésticos">
-            <span>Pequenos </span><span>eletrodomésticos</span>
-           </a>
-           <a href="Lifestyle.html"class="caixa-de-categoria">
-            <img src="imagens/electric-shaver_80278.png" alt="Lifestyle">
-            <span>Lifestyle</span>
-           </a>
-           <a href="SmartHome.html"class="caixa-de-categoria">
-            <img src="imagens/smart-home_2668384.png" alt="SmartHome">
-            <span>Smart</span><span>Home</span>
-           </a>
-           <a href="Descktops.html"class="caixa-de-categoria">
-            <img src="imagens/computer_2004580.png" alt="Computadores">
-            <span>Desktops</span>
-           </a>
-           <a href="Laptops.html"class="caixa-de-categoria">
-            <img src="imagens/laptop_4439476.png" alt="Laptops">
-            <span>Laptops</span>
-           </a>
-           <a href="Componentes.html"class="caixa-de-categoria">
-            <img src="imagens/processor_3848994.png" alt="componentes">
-            <span>Componentes</span>
-           </a>
-           
+<body onload="loadData()">
+    <!--Barra de navegação-->
+
+    <!--Categorias de produtos-->
+    <nav class="navigation">
+        <a href="#PaginaInicial.html" class="logo">
+            <span>Tec</span>Product</a>
+        <ul class="menu">
+
+
+            <li><a href="Descontos.html">Campanhas e descontos</a></li>
+            <li><a href="Sobrenos.html">Sobre nos</a></li>
+            <li><a href="Ajuda.html">Ajuda</a></li>
+
+        </ul>
+        <div class="right-nav">
+
+            <a href="#" class="insta">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a><a href="#" class="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
         </div>
-        </section>
-    <div class="cabeçalho-categorias">
-        <h3> Televisores</h3>
+    </nav>
+    <!--barra de pesquisa-->
+    <section id="barraPesquisa">
+        <div class="texto">
+            <h1>Melhores Preços</h1>
+            <strong>#EntregaGrátis</strong>
+            <form action="#" class="caixa-de-procura">
+                <i class="fas fa-search"></i>
+                <input type="text" class="input-procura" placeholder="Escreve aqui o que procuras..." name="procura"
+                    required>
+                <input type="submit" class="output-procura" value="Procurar">
+
+            </form>
+        </div>
+    </section>
+    <!--Categorias de produtos-->
+    <section id="categorias">
+
+        <div class="cabeçalho-categorias">
+            <h2> Categorias</h2>
+            <span>ALL </span>
+        </div>
+
+        <div class="contentor-de-categorias">
+
+            <a href="Televisores.html" class="caixa-de-categoria">
+                <img src="imagens/television_2933791.png" alt="televisores">
+                <span>Televisores</span>
+            </a>
+            <a href="Smartphones.html" class="caixa-de-categoria">
+                <img src="imagens/smartphone_7344131.png" alt="Smartphones">
+                <span>Smartphones</span>
+            </a>
+            <a href="GrandesEletrodomesticos.html" class="caixa-de-categoria">
+                <img src="imagens/amenities_2243656.png" alt=">Grandeseletrodomésticos">
+                <span>Grandes </span><span>eletrodomésticos</span>
+            </a>
+            <a href="PequenosEletrodomesticos.html" class="caixa-de-categoria">
+                <img src="imagens/coffee-maker_125691.png" alt="Pequenoseletrodomésticos">
+                <span>Pequenos </span><span>eletrodomésticos</span>
+            </a>
+            <a href="Lifestyle.html" class="caixa-de-categoria">
+                <img src="imagens/electric-shaver_80278.png" alt="Lifestyle">
+                <span>Lifestyle</span>
+            </a>
+            <a href="SmartHome.html" class="caixa-de-categoria">
+                <img src="imagens/smart-home_2668384.png" alt="SmartHome">
+                <span>Smart</span><span>Home</span>
+            </a>
+            <a href="Descktops.html" class="caixa-de-categoria">
+                <img src="imagens/computer_2004580.png" alt="Computadores">
+                <span>Descktops</span>
+            </a>
+            <a href="Laptops.html" class="caixa-de-categoria">
+                <img src="imagens/laptop_4439476.png" alt="Laptops">
+                <span>Laptops</span>
+            </a>
+            <a href="Componentes.html" class="caixa-de-categoria">
+                <img src="imagens/processor_3848994.png" alt="componentes">
+                <span>Componentes</span>
+            </a>
+
+        </div>
+    </section>
+  <!--Grelha Produtos-->
+    <section class="cabeçalho-categorias">
+        <h3> SmartHome</h3>
         <span>ALL </span>
-    </div>
+    </section>
     <section id="produtos">
-        <div class="banner-esquerda">
-        </div>
-
-
-
-
-
-        <div class="contentor-produtos">
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/lg32lq.jpg" alt="camera">
-                    <strong class="nome-produto">Televisão LG 32LQ63806LC SmartTV 32" LED FHD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Painel LED com resolução HD Ready </li>
-                        <li> Processador α5 Gen5 AI </li>
-                        <li> Smart TV ThinQ™ AI com sistema operativo webOS 22</li>
-
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">28€</strong>
-                  
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/lgserieb3.jpg" alt="ssd">
-                    <strong class="nome-produto">Televisão Smart TV LG Série B3 165,1cm OLED 4K UHD webOS </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Processador α7 AI 4K Gen6</li>
-                        <li> ThinQ AI e WebOS</li>
-                        <li>Tipo de painel: OLED 4K</li>
-                        
-                        
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">1296€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/sonybraviax75wl.jpg" alt="Headset">
-                    <strong class="nome-produto">Televisão Smart TV Sony Bravia Série X75WL 127cm LED 4K UHD Google TV </strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Direct LED </li>
-                        <li> processador de Imagem: 4K Processor X1™</li>
-                        <li>taxa de atualização do painel: 50/60 Hz</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">699€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/xiaomiMi4s.jpg" alt="frigorifico">
-                    <strong class="nome-produto">Televisão Smart TV Xiaomi Mi 4S 139,7cm LED 4K UHD Android TV</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>PCPU: Quad Core (até 1,5 GHz)</li>
-                        <li>Ângulo de Visão: 178°(H)/178°(V)</li>
-                        <li>DTS-HD</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">390€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/samsungQN90A.jpg" alt="mic">
-                    <strong class="nome-produto">Televisão Samsung QN90A SmartTV 65" Neo QLED 4K UHD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Motor de Imagem Processador Neo Quantum 4K </li>
-                        <li>  Um bilhão de cores Sim</li>
-                        <li>Índice Qualidade de Imagem (PQI) 4500</li>
-                        <li>HDR (High Dynamic Range) Quantum HDR 2000 </li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">2221€</strong>
-                    
-                </div>
-            </div>
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/monitorlg24t.jpg" alt="Monitormsi">
-                    <strong class="nome-produto">Televisão Monitor LG 24TQ510S-PZ 23.6" LED HD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Amplo Ângulo de Visão</li>
-                        <li>Smart TV WebOS 22</li>
-                        <li>Coluna Stereo 5W x 2</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">159€</strong>
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/LGserieur91.jpg" alt="DiscoRigido">
-                    <strong class="nome-produto">Televisão Smart TV LG Série UR91 165,1cm LED 4K UHD webOS</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>UHD com resolução 4K</li>
-                        <li> Processador α5 Gen6 4K AI</li>
-                        <li>Smart TV ThinQ™ AI com sistema operativo webOS 23</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">699€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/SamsungLSS03C.jpg" alt="pcLenovo">
-                    <strong class="nome-produto">Televisão Samsung LS03CSmartTV 55" QLED 4K UHD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>
-                            Moldura Personalizável com Design Moderno </li>
-                        <li> 100% Volume de Cor com Tecnologia Quantum Dot</li>
-                        <li> Modo Arte </li>
-                        <li>One Connect e Ligações Invisíveis</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">1099€</strong>
-             
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/sonykd-32w804.jpg" alt="grafica">
-                    <strong class="nome-produto">Televisão Sony KD-32W804 SmartTV LED HD Ready Android TV</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>levada gama dinâmica</li>
-                        <li> BRAVIA ENGINE</li>
-                        <li>Sistema Operativo Android TV™</li>
-                        <li> Chromecast incorporado</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">349€</strong>
-                 
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/SONYBRAVIA.jpg" alt="aspirador">
-                    <strong class="nome-produto">Televisão Smart TV Sony Bravia XR Série A90K 121,9cm OLED 4K UHD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>OLED 4K</li>
-                        <li>  Cognitive Processor XR™ </li>
-                        <li>Modo de latência baixa </li>
-                        <li>Upscaling 3D Surround</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">1649€</strong>
-                   
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/SamsungCU8505.jpg" alt="Monitor">
-                    <strong class="nome-produto">Televisão Samsung CU8505 SmartTV 50" LED 4K UHD</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>tamanho de ecrã: 50" </li>
-                        <li> Resolução: 3.840 x 2.160 </li>
-                        <li>Motor de imagem: Processador Crystal 4K</li>
-                        <li>HLG (Hybrid Log Gamma)</li>
-                    </ul>
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">479€</strong>
-                    
-                </div>
-            </div>
-
-            <div class="caixa-produto">
-                <div class="descriçao-produto">
-                    <img src="imagens/Xiaomip1e.jpg" alt="spray">
-                    <strong class="nome-produto">Televisão Smart TV Xiaomi P1E 55"/140cm LED 4K UHD Android TV</strong>
-                </div>
-                <div class="informação-produto">
-                    <ul>
-                        <li>Resolução: 4K Ultra HD (3840 x 2160)</li>
-                            
-                        <li>Ângulos de visualização: 178º (H) / 178º (V)</li>
-                            <li> Dolby Vision</li>
-                        <li> Taxa de atualização: 60 Hz</li>
-                    </ul>
-
-                    <a href="#" class="video">Vídeo Review</a>
-                    <a href="" class="adicionar-carro">
-                        <i class="fas fa-shopping-bag"></i>Adicionar
-                    </a>
-                </div>
-                <div class="preços">
-                    <strong class="preço-atual">389€</strong>
-                    
-                </div>
-            </div>
-        </div>
-     
-
-
-            <div class="banner-direita"></div>
-   
-   
-        </section>
-
-
-
-        <footer>
-            <div class="contentor-footer">
-                <div class="logo-footer">
-                    <a href="PaginaInicial.html"><span>Tec</span>Product</a></a>
-               
+        <div class="banner-esquerda"> </div>
+        <div id="contentorProdutos"> </div>
+        <div class="banner-direita"></div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="contentor-footer">
+            <div class="logo-footer">
+                <a href="PaginaInicial.html"><span>Tec</span>Product</a>
                 <div class="social-footer">
                     <a href="https://twitter.com/tecproduct25180"><i class="fab fa-x"></i></a>
                     <a href="https://www.instagram.com/tecproducts280/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UC1NBtpinAZoxdU2zK7sZ-6A"><i
+                            class="fab fa-youtube"></i></a>
                 </div>
-            
-            </div> 
+
+            </div>
             <div class="links-footer">
                 <strong>Categorias</strong>
                 <ul>
@@ -430,18 +147,11 @@
                 <ul>
                     <li><a href="#">Telefone:+351253000000</a></li>
                     <li><a href="#">Email:tecproducts280@gmail.com</a></li>
-               
+
                 </ul>
             </div>
-            </div>
-             
-            </footer>
-            
-            
-            
-            
-            
-            
-            </body>
-            
-            </html>
+
+    </footer>
+</body>
+
+</html>

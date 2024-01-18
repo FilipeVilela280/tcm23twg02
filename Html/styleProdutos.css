@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -7,6 +8,9 @@
 border-color: black;
 
 }
+
+
+/*-----------Menu------------ */
 ul{
     list-style:none;
     
@@ -19,7 +23,7 @@ a{
 body{
     margin:0px;
     padding:0px;
-    font-family: 'Poppins', sans-serif;
+   
    
 }
 .navigation{
@@ -53,7 +57,7 @@ body{
     color:rgb(130, 255, 130); 
     
 }
-
+/*-----------Logo------------ */
 .logo{
    
    font-weight: bolder;
@@ -71,6 +75,7 @@ letter-spacing:1px;
 column-gap: 25px;
 
 }
+/*-----------Redes Sociais/Carinho------------ */
 .right-nav .insta{
   font-size: larger;
     color: rgb(226, 43, 43);
@@ -113,19 +118,19 @@ position: relative;
     font-size: small;
  font-weight: lighter;
 }
-
+/*-----------Barra de pesquisa------------ */
 #barraPesquisa {
     
     max-width:2000px;
-    min-width: 500px;
+   
     width:100%;
     height: 150px;
     align-items: center;
 
-     margin: 10px auto;
+     margin: 10px 0px;
      position: relative;
 background-image: url(imagens/Banner.jpg);
-background-position:-200px;
+
 background-repeat: no-repeat;
 background-size: 2000px;
 padding: 100px;
@@ -150,19 +155,20 @@ left: 20px;
         color: red;
         font-size: xx-large;
     }
+    /*-----------Caixa de procura/Form------------ */
     .caixa-de-procura{
         background-color: rgb(255, 255, 255);
       
         width:500px;
-        min-width: 400px;
+      
         height: 40px;
         display: flex;
         align-items: center;
         margin-top:25px;
         padding:0px 5px 0px 20px ;
         border-radius:30px;
-    position:absolute ;
-    top: 40px;
+    position:relative ;
+   bottom:60px ;
     left: 650px;
 
     
@@ -193,13 +199,11 @@ left: 20px;
     .caixa-de-procura .output-procura:hover{
         background-color: lightgreen;
     }
-    /*==categorias=====*/
+   /*-----------Categorias Section------------ */
     #categorias{
         display: flex;
         flex-direction: column;
-        max-width: 2000px;
-        min-width: 500px;
-      margin: auto;
+      max-width: 2000px;
       background-color: rgb(31, 31, 31);
      
     }
@@ -240,9 +244,9 @@ left: 20px;
         justify-content: center;
         background-color: white;
         border-radius: 50%;
-        height: 145px;
+        height: 165px;
       
-        width: 145px;
+        width: 165px;
        
         border: 2px solid rgb(255, 9, 9);
     }
@@ -255,7 +259,7 @@ left: 20px;
         color: white;
     }
     .caixa-de-categoria span{
-        font-size: 11px;
+        font-size: small;
         font-weight: 700;
        margin-top: 5px;
         color: rgb(31, 31, 31);
@@ -267,7 +271,8 @@ left: 20px;
     .caixa-de-categoria:hover{
         border: 1px solid rgb(9, 255, 103);
     }
-#produtos{
+    /*-----------Produtos Section------------ */
+    #produtos{
     display: flex;
 }
 .banner-esquerda{
@@ -275,41 +280,22 @@ left: 20px;
     height: 1100px;
    background-image: url(imagens/lateral.jpg);
 background-color: red;
-background-position: -30px;  
-background-size: 160px;
+   background-size: 160px;
    background-attachment: fixed;
   
 }
-.contentor-produtos{
+#contentorProdutos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap:10px ;
     width: 1640px;
     align-items: center;
     background-color: rgb(31, 31, 31);
-}
 
-.banner-direita{
-    width: 180px;
-    height: 1100px;
-   background-image: url(imagens/lateral.jpg);
-background-position: -50px;
-background-color: red;
-   background-size: 160px;
-align-items: center;
-justify-content: center;
-   background-attachment: fixed;
 }
-
-.cabeçalho-categorias h3{
-    font-size: large;
-     font-weight: 700;
-     color:  #3b3b3b;
-     letter-spacing: 0,5px;
-     margin-top:5px;
-} 
 .caixa-produto{
-    margin: 10px;
-     width: 95%;
+
+     width:480px;
      height: 200px;
      border: 1px solid black;
      background-color: #3b3b3b;
@@ -322,20 +308,14 @@ justify-content: center;
      font-size: small
 
 }
-
 .descriçao-produto{
     display:flex ;
     flex-direction: column;
     float: left;
     padding-right:70px ;
- 
-    
-   
-  
- 
-    
-}
 
+
+}
 .caixa-produto img{
     width: 120px;
     height: 120px;
@@ -345,104 +325,99 @@ justify-content: center;
  .nome-produto{
     font-size: 10px;
   text-align: left;
-  max-width: 100px;
+ width: 120px;
    
 }
-
 .informação-produto{
-    display: flex;
-    flex-direction: column;
 
-  width: 90px;
-margin-left: 5px;
-  position: relative;
  left: 20px;
 
+width: 120px;
+position: relative;
+bottom: 20px;
     
 }
-.informação-produto ul{
+.informação-produto p{
     font-size:10px ;
     opacity: 0.7;
- 
-    
+    width:230px ;
+
+}
+.links-produto{
    
+  
+position: relative;
+top: 60px;
+right: 100px;
+width: 350px;
+align-content: center;
+justify-content: center;
+
+
+
 }
-.informação-produto .video{
+.links-produto .video{
     color: red;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 0px;
+  left: 14px;
 
 
 }
-
-
-.caixa-produtoa:hover{
+.caixa-produto a:hover{
     color: rgb(9, 255, 103);
     
 }
-.preços{
+.adicionar-carro{
+    max-width: 100%;
+    max-height: 20px;
+ color: red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid black;
+ border-radius: 20px;
+ margin-bottom: 5px;
+
+ font-size:10px;
+
+}
+ /*-----------Preco------------ */ 
+.preço-atual{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-margin-left: 10px;
-
-}
-.preço-atual{
-    font-size:20px ;
-
-    width: 100px;
     color:rgb(9, 255, 103);
-    margin-bottom: 140px;
-    
-    position: relative;
-    left: 20px;
+font-size: large;
+position: relative;
+
+right: 20px;
+bottom: 70px;
+
 }
 .preço-antigo{
     color: red;
  text-decoration: line-through 2px rgb(78, 0, 0);
-font-size: 20px;
-margin-left: 20px;
+font-size: 15px;
+position: relative;
+
+top: 70px;
 
 }
 
-.adicionar-carro{
-   max-width: 60%;
-   max-height: 20px;
-color: red;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1px solid black;
-border-radius: 20px;
-margin-bottom: 5px;
-font-size:9px;
-}
-.adicionar-carro i{
-    margin-right: 10px;
+
+.banner-direita{
+    width: 180px;
+    height: 1100px;
+   background-image: url(imagens/lateral.jpg);
+background-color: red;
+   background-size: 160px;
+   background-attachment: fixed;
   
 }
-.adicionar-carro:hover{
-color:rgb(9, 255, 103);
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------Footer------------ */
 footer{
     background-color:rgb(31, 31, 31);
 padding: 50px 20px;
@@ -456,6 +431,7 @@ margin-top: 10px;
     align-items:flex-start ;
 
 }
+/*-----------Logo------------ */
 .logo-footer{
     display: flex;
     flex-direction: column;
@@ -473,6 +449,7 @@ margin-top: 10px;
     font-weight: 700;
     color: red;
 }
+/*-----------Redes Sociais Fotter------------ */
 .social-footer{
     display: flex;
     margin-top: 10px;
@@ -491,6 +468,7 @@ margin-top: 10px;
 .social-footer a:hover {
     background-color: rgb(9, 255, 103);
 }
+/*-----------NavBar Footer------------ */
 .links-footer strong{
     color: white;
     font-size: 1.4rem;
@@ -510,232 +488,202 @@ letter-spacing: 1px;
 .links-footer li a:hover{
     opacity: 1;
 }
-@media(max-width:1200px){
-    
-    
-    
-    .navigation{
-       
-        max-width:1500px;
-    
-    }
-    .menu li a{
-
-font-size: small;
-    }
-   
-    .logo{
-   
-     
-     font-size: large;    
-     }
-     #barraPesquisa{
-       
-        background-size:cover;
-     }
-     .texto h1{
-        font-size: 40px;
-     }
-     .texto strong{
-    font-size: 25px; 
-    
-    }
-    .caixa-de-procura{
-    width: 100px;
-    position:absolute ;
-    top: 40px;
-    left: 300px;    
-    }
-    .caixa-de-categoria{
-        width:100px;
-        height:100px;
-    }
-    .caixa-de-categoria img{
-    
-    width: 20px;
-    height: 20px;
-    
-    }
-    .poster-campanha{
- 
-        background-repeat: no-repeat;
-     background-attachment: fixed;
- 
-      background-position-x: -100px;
-        
-    }
-
-    .contentor-produtos{
-        width:600px;
-        background-color: rgb(31, 31, 31);
-    display:grid;
-     
-     grid-template-columns: repeat(1,1fr) ;
-}
-
-
-
-
-
-
-.caixa-cliente p{
-    font-size: 9px;
-}
-.banner-esquerda{
-height: 4000px;
-
-
-}
-.banner-direita{
-    height: 4000px;
-    
-    
-    }
-
-}
-@media(max-width:600px){
+/*-----------Media Mobile------------ */
+@media(max-width:500px){
    .navigation{
     display: flex;
     justify-content: left;
-    width: 500px;
+    width: 480px;
+
 }
+  /*-----------Logo------------ */
+.logo{
    
-    .logo span{
+    font-weight: bolder;
+ font-size: small;    
+ letter-spacing:1px;
+     color: white;
+     position: relative;
+     right:  30px;
+        
+  
+ 
+ }    
+.logo span{
     
         font-size: medium;
         font-weight: 700;
         color: red;
-    }
-    .logo span a{
+        position: relative;
+        bottom: 20px;
     
-        font-size: small;
-     
-    }
+}
+ /*-----------Menu------------ */
     .menu li a{
        display: flex;
        flex-direction: column;
+     width: 80px;
        font-size:9px;
        margin: 0px 5px;
+      
+       width: 80px;
+       height: 60px;
+       position: relative;
+       right: 20px;
+      
+    
     }
     .right-nav .insta{
         display: none;
-      }
+      
+    }
+    /*-----------Barra Pesquisas------------ */   
+    #barraPesquisa {
+    
+      
+       background-color: #3b3b3b;
+      width: 480px;
+        
+        }
       .texto h1{
-        font-size: 20px;
-        position: relative;
-        right: 50px;
+        display: none;
+    
+    
     }
      .texto strong{
-    font-size: 15px; 
-    position: relative;
-        right: 50px;
+    display: none;
     }
-    .cabeçalho-categorias h2{
-        font-size: large;
-        
- 
-     }
-    
-    
-    
+     /*-----------Caixa de Procura------------ */
     .caixa-de-procura{
-        width: 170px;
-        position:absolute;
-        top: 60px;
-        left: 100px;
+        width: 300px;
+        position:relative;
+        top: 50px;
+        left: 10px;
             
         }
         .caixa-de-procura i{
-            font-size: 15px;
-           
+            font-size: 20px;
             margin: 0px 0px ;  
         }
         .caixa-de-procura .input-procura {
-          font-size: 6px;
+          font-size: 16px;
          
         }
         .caixa-de-procura .output-procura{
-            width: 60px;
+            width: 70px;
            height: 30px;
-           font-size: 10px;
-           position: relative;
-           left: 70px;
+           font-size: 6px;
+  
+           
+           
         }
+       /*-----------Categorias Section------------ */
+        #categorias{
+        width: 480px;
     
+       }
+        .cabeçalho-categorias h2 {
+            font-size: 11px;
+            position: relative;
+            right: 90px;
+            
+         }
+         .cabeçalho-categorias h3 {
+            font-size: 11px;
+            position: relative;
+            right: 90px;
+     
+         }
+         .cabeçalho-categorias span{
+            font-size: 10px;
+           
+     
+         }
+        
+        
         .contentor-de-categorias{
-            width: 400px;
+            width: 420px;
             margin: 0px 10px;
             justify-content: center;
             
         }
+        .caixa-de-categoria img{
+    
+            width: 20px;
+            height: 20px;
+            
+            }
         .caixa-de-categoria{
             width:50px;
             height:50px;
             
-            
+           margin-bottom: 10px;
             border:1px solid red;
             
         }
         .caixa-de-categoria span{
             display: none;
         }
-        
-        .contentor-produtos{
-   width: 500px;
+          /*-----------Produtossection------------ */
+        #contentorProdutos{
+   width: 200px;
         display:grid;
-         grid-template-columns: repeat(1,1fr) ;
-    
+         grid-template-columns: repeat(1,0fr) ;
+        
         }
         .informação-produto{
           width: 100px;
-        
+          
             
         }
-        .informação-produto ul{
+        .informação-produto p{
             font-size:9px ;
             
          
             
            
         }
-        .informação-produto .video{
-            color: red;
-            font-size: 10px;
-        
+        .links-produto .video{
+            
+            position: relative;
+          left: 19px;
+   
         
         }
-      
-      
         
-        .caixa-cliente{
-            width: 115px;
-        
-        
-         }
-         .perfil-cliente img{
-            width: 40px;
-            height: 40px;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 50%;
-         }
-       .perfil-texto strong{
-           font-size: 11px;
-           line-height: 10%;
-          
+        .adicionar-carro{
+            max-width: 100%;
+            max-height: 20px;
+         color: red;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border: 1px solid black;
+         border-radius: 20px;
+         margin-bottom: 5px;
+     
+         font-size:10px;
+        }
+  /*-----------Preco------------ */
+        .preço-atual{
+            font-size:15px ;
+            color:rgb(9, 255, 103);
+           position: relative;
+           top: 10px;
+         right: 20px;
            
-       }
-  
-       .rating i{
-           color:#fdcc0d;
-           font-size: 10px;
-       
-       }
-       .caixa-cliente p{
-           color: #7c7c7c;
-       font-size: 8px;
         }
-    
+        .preço-antigo{
+            color: red;
+         text-decoration: line-through 2px rgb(78, 0, 0);
+        font-size: 14px;
+        position: relative;
+        top: 60px;
+      
+       
+        
+        }
+      
         .links-footer strong{
         font-size: large;
         }
@@ -752,10 +700,90 @@ height: 4000px;
                 
                 
                 }
+                .contentor-footer{
+                    width:480px;
+                    margin: auto;
+                    display: flex;
+                    justify-content:space-around;
+                    align-items:flex-start ;
+                
+                }
+                .logo-footer{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logo-footer span{
+                 font-size: 10px;
+                }
+                .logo-footer a{
+                    
+                    font-size: 10px;
+                    position: relative;
+                    right: 20px;
+                    top: 9px;
+                }
+                .social-footer{
+             display: block;
+                }
+                .social-footer a{
+                    width: 40px;
+                    height: 40px;
+                    
+                    
+                }
+               
+           
+                .links-footer strong{
+                    color: white;
+                    font-size: 11px;
+                    position: relative;
+                    right:  30px;
+                
+                }
+               
+                .links-footer ul li a{
+               
+               position: relative;
+               right:  40px;
+                }
     
+
+            }
+            /*-----------Media Portatil------------ */
+            @media(max-width:1000px){
+                
+#categorias{
+    width: 1520px;
+}
+               
+
+                .caixa-de-categoria{
+                    width:130px;
+                    height:130px;
+                  
+                    
+                }
+                .caixa-de-categoria img{
     
+                    width: 50px;
+                    height: 50px;
+                    
+                    }      
+                    .caixa-de-categoria span{
     
-    }
-
-
-
+                       font-size: 11px;
+                        
+                        }   
+                        .banner-direita{
+                            display: none;
+                            
+                            
+                            }
+                            .banner-esquerda{
+                       display: none;
+                              
+                            }
+            
+            }

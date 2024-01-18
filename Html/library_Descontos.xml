@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<library_Descontos   xmlns="http://www.library_Descontos.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library_Descontos.org library_XSD_Descontos.xsd">
+
+	<Produto >
+		
+		<nome>Câmara de Segurança TP-Link Tapo   TC71 2K Pan</nome>
+		<imagem>imagens/camera.jpg</imagem>
+		<descrição>Vídeo de Alta Definição
+      Panorâmica e Inclinaçãoe 
+      Visão Noturna Avançada</descrição>
+		 <precoAtual>28€</precoAtual>
+         <precoAntigo>29€</precoAntigo>
+
+		 <vídeo>https://youtu.be/xcGkq2TTguo?si=d_R9ZIRnBhOB9gx5</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>SSD M.2 2280 WD_Black SN850X 4TB</nome>
+		<imagem>imagens/ssd.jpg</imagem>
+		<descrição> 7,300MB/s Leitura
+     6,600MB/s Escrita
+     1,200,000 IOPS Leitura
+     1,100,000 IOPS Escrita
+        </descrição>
+		 <precoAtual>289€</precoAtual>
+         <precoAntigo>349€</precoAntigo>
+
+		 <vídeo>https://youtu.be/uFAWAKFkmww?si=uQY0_eZdmmWVtedS</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Headset Logitech G Pro X2 Lightspeed Gaming </nome>
+		<imagem>imagens/headset.jpg</imagem>
+		<descrição>Logitech G PRO X 2 LIGHTSPEED Headset sem fios para gaming 
+         microfone com haste amovível
+        controladores de grafeno de 50 mm</descrição>
+		 <precoAtual>199€</precoAtual>
+         <precoAntigo>269€</precoAntigo>
+
+		 <vídeo>https://youtu.be/gU-FKQbxKcA?si=sF0K40VP9QcNORGu</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Frigorífico Bosch Serie 6 319 Litros</nome>
+		<imagem>imagens/frigorifico.jpg</imagem>
+		<descrição>   Power ventilation com ventilador interior para melhor distribuição do ar frio
+         FreshSense: conservação de alimentos à temperatura correta
+        Iluminação LED: brilhante, eficiente e de longa duração</descrição>
+		 <precoAtual>794€</precoAtual>
+         <precoAntigo>845€</precoAntigo>
+
+		 <vídeo>https://youtu.be/wTwwLDV5KgI?si=FcmcFrTAnK4DHhry</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Microfone Krom Gaming Kapsule HQ Streaming</nome>
+		<imagem>imagens/mic.jpg</imagem>
+		<descrição> PMicrofone profissional com 2 condensadores de cápsula 
+         Seletor de padrão de gravação: unidirecional, cardióide ou omnidirecional
+        Entrada de áudio de 3,5 mm</descrição>
+		 <precoAtual>34€</precoAtual>
+         <precoAntigo>54€</precoAntigo>
+
+		 <vídeo>https://youtu.be/izr7Vys5N9w?si=lvPbc1iPTrkdfvmD</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Monitor MSI PRO MP2412 VA 23.8" FHD 16:9 100Hz FreeSync</nome>
+		<imagem>imagens/Monitormsi.jpg</imagem>
+		<descrição>  1ms 1920x1080
+        300 cd/m²|4000:1|1x HDMI 1.4b
+        1x DisplayPort 1.2a</descrição>
+		 <precoAtual>259€</precoAtual>
+         <precoAntigo>269€</precoAntigo>
+
+		 <vídeo>https://youtu.be/RMHUKH_iBUA?si=DE3_iYt1SMvFcGfc</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Disco Rígido 3.5" WD_Red Pro 8TB 7200RPM 256MB SATA III</nome>
+		<imagem>imagens/DiscoRigido.jpg</imagem>
+		<descrição>O WD Red fornece armazenamento de ponta para sistemas NAS 
+         Capacidade: 8 TB
+        Formato: 3.5 polegadas</descrição>
+		 <precoAtual>28€</precoAtual>
+         <precoAntigo>29€</precoAntigo>
+
+		 <vídeo>https://youtu.be/zKy9ysmE1gY?si=UxGEEqw6lWNKr1y5</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Portátil Lenovo ThinkPad T14 Gen 4 (Intel) </nome>
+		<imagem>imagens/pcLenovo.jpg</imagem>
+		<descrição>   Intel Core i7-1355U 
+        W11 Pro 32GB RAM
+        WUXGA 60Hz Iris Xe Graphics 
+        SSD 1TB</descrição>
+		 <precoAtual>1899€</precoAtual>
+         <precoAntigo>2159€</precoAntigo>
+
+		 <vídeo>https://youtu.be/v0fA1XNV6Fo?si=aLZjNkKCwVGqmiIH</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Placa Gráfica Sapphire Pulse Radeon RX 7600 8GB </nome>
+		<imagem>imagens/grafica.jpg</imagem>
+		<descrição>
+            Clock Base: TBD 
+             Clock Boost: TBD 
+            Stream Processors: 2048
+            Interface Memória: 128 Bits </descrição>
+		 <precoAtual>279€</precoAtual>
+         <precoAntigo>314€</precoAntigo>
+
+		 <vídeo>https://youtu.be/oaD18ag891o?si=mwpYX3VI-hU3Z8M1</vídeo>
+	</Produto>
+
+    <Produto >
+		
+		<nome>Aspirador Robô Cecotec Conga 2499 Ultra Genesis </nome>
+		<imagem>imagens/aspirador.jpg</imagem>
+		<descrição>
+            Force Clean 2100 Pa: elevado poder de sucção.
+             Turbo Clean Carpet: modo Turbo para limpeza profunda de carpete 
+            AutoCharge: carregamento automático da bateria.</descrição>
+		 <precoAtual>149€</precoAtual>
+         <precoAntigo>199€</precoAntigo>
+
+		 <vídeo>https://youtu.be/QWzl9uNCeKU?si=teZArrGHDUkWJcNF</vídeo>
+	</Produto>
+
+    <Produto >
+		
+		<nome>Monitor LG Ergo UltraWide 34WN780-B</nome>
+		<imagem>imagens/Monitor.jpg</imagem>
+		<descrição>
+            5ms 3440x1440 300 cd/m² 
+                        1000:1 1xDisplayPort 1.4 
+                        2xHDMI 2.0 2xUSB 3.0 Jack 3.5mm</descrição>
+		 <precoAtual>359€</precoAtual>
+         <precoAntigo>399€</precoAntigo>
+
+		 <vídeo>https://youtu.be/4STpPpxEFfM?si=cW6_yJCYAGCevfXk</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Spray Eliminador de Pó Gembird 400ml </nome>
+		<imagem>imagens/spay.jpg</imagem>
+		<descrição>
+            Spray para remover pó e sujidade com um poderoso jato de ar comprimido.
+             Tubo de extensão para pó de precisão incluído.</descrição>
+		 <precoAtual>2€</precoAtual>
+         <precoAntigo>3€</precoAntigo>
+
+		 <vídeo>https://youtu.be/kPFJNYo_Ka8?si=-mZtGlWDox8ZvrAz</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Smartphone Xiaomi Redmi 12C</nome>
+		<imagem>imagens/xiaomi.jpg</imagem>
+		<descrição>
+            rocessador Octa-Core MediaTek Helio G85
+             Ecrã de 6.71" imersivo
+             Bateria de 5000mAh
+            Câmara principal de 50 MP</descrição>
+		 <precoAtual>139€</precoAtual>
+         <precoAntigo>159€</precoAntigo>
+
+		 <vídeo>https://youtu.be/Xg1eqEkggN0?si=Kjh6tUk1rv-l97r-</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Motherboard ATX Asus ROG Strix B760-F</nome>
+		<imagem>imagens/motherboard.jpg</imagem>
+		<descrição>
+            Motherboard Intel® B760 LGA 1700 ATX com 16 + 1 estágios de potência
+                        DDR5 até 7800 MT/s
+                        PCIe 5.0 x16 SafeSlot com Q-Release</descrição>
+		 <precoAtual>209€</precoAtual>
+         <precoAntigo>279€</precoAntigo>
+
+		 <vídeo>https://youtu.be/M6o85L7hIPU?si=_zW67p19SyeeQNBl</vídeo>
+	</Produto>
+    <Produto >
+		
+		<nome>Coluna High-Power Philips TAX4207 100W</nome>
+		<imagem>imagens/coluna.jpg</imagem>
+		<descrição>
+            Luzes intermitentes para festas 
+            Ligação sem fios para festas
+            Bateria recarregável
+             50 W RMS. saída máxima de 100 W</descrição>
+		 <precoAtual>99€</precoAtual>
+         <precoAntigo>115€</precoAntigo>
+
+		 <vídeo>https://youtu.be/mtMZNBuTSqk?si=66xY4WnRfrNprQc3</vídeo>
+	</Produto>
+	
+</library_Descontos>

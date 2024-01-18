@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<library  xmlns="http://www.library.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.library.org library_XSD.xsd">
+
+	<Produto >
+		<nome>Memória RAM Corsair Vengeance LPX 8GB</nome>
+		<imagem>imagens/MemoriaRAMCorsairVengeanceLPX8GB.jpg</imagem>
+		<descrição>Capacidade: Single-Channel 8GB (8GBx1)
+          Tipo: DDR4
+          Velocidade: 2400MHz </descrição>
+		 <preco>190€</preco>
+		 <vídeo>https://youtu.be/8wbcW__ASbA?si=UqfplvVEqcIWVdwr</vídeo>
+	</Produto>
+	
+	<Produto >
+		
+		<nome>Processador Intel Core i7-12700F (12ª Geração) </nome>
+		<imagem>imagens/ProcessadorIntelCorei7.jpg</imagem>
+		<descrição>Capacidade de sucção: 4000Pa
+        Bateria: 5200 mAh
+        Tempo de carregamento: Apróx. 6 horas</descrição>
+		 <preco>324€</preco>
+		 <vídeo>https://youtu.be/ALMsw99iK14?si=-yz6h3gJvaHiFi8z</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+	
+		<nome>Caixa Micro-ATX Mars Gaming MC-S2 Compact</nome>
+		<imagem>imagens/CaixaMicro-ATXMarsGamingMC-S2Compact.jpg</imagem>
+		<descrição>  2x Ventoinhas FRGB incluídas
+        Grelha frontal
+        Water Cooler até 240mm*</descrição>
+		 <preco>230€</preco>
+		 <vídeo>https://youtu.be/fu_bG3GFFt4?si=asm5ESndBCF3yqyT</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		<nome>placa Gráfica Asus GeForce RTX 4060 Ti Dual White</nome>
+		<imagem>imagens/MotorGraficoNVIDIAGeForceTX4060.jpg</imagem>
+		<descrição> CMotor Gráfico: NVIDIA GeForce RTX 4060 Ti
+			Arquitetura: NVIDIA Ada Lovelace
+			Núcleos Ray Tracing: 3ª Geração
+			Núcleos Tensor: 4ª Geração </descrição>
+		 <preco>447€</preco>
+		 <vídeo>https://youtu.be/XfdvgoZGT_c?si=3v--bRlQaO2KuMh1</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Water Cooler CPU Corsair iCUE H170i</nome>
+		<imagem>imagens/WaterCoolerCPUCorsairiCUEH170i.jpg</imagem>
+		<descrição> Ecrã IPS LCD de 2,1” personalizada
+        Velocidades da ventoinha PWM de até 1.700 RPM 
+        Pasta térmica premium CORSAIR XTM70 pré-aplicada </descrição>
+		 <preco>394€</preco>
+		 <vídeo>https://youtu.be/bB514MemYqs?si=SkwnJYhbeLjnsP_V</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Memória RAM G.SKILL Trident Z5 RGB 96GB</nome>
+		<imagem>imagens/MemoriaRAMGSKILLTridentZ5RGB96GB.jpg</imagem>
+		<descrição>Maior estabilidade para overclock
+        Compatível com Intel® XMP 3.0
+        Iluminação RGB</descrição>
+		 <preco>471€</preco>
+		 <vídeo>https://youtu.be/p5gixfJw2ec?si=-wYImj_S4HKKIM6A</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Processador AMD Ryzen 7 7800X3D "Zen 4" 8-Core</nome>
+		<imagem>imagens/ProcessadorAMDRyzen77800X3D8-Core.jpg</imagem>
+		<descrição>
+            O processador dominante para jogos
+             tecnologia AMD 3D V-Cache
+            Processador de 5nm com núcleos "Zen 4" de alto desempenho</descrição>
+		 <preco>429€</preco>
+		 <vídeo>https://youtu.be/wAqLqD7YhgI?si=0MRSdL3NZ7VXKVxx</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Motherboard ATX MSI MAG B550 Tomahawk</nome>
+		<imagem>imagens/MotherboardATXMSIMAGB550Tomahawk.jpg</imagem>
+		<descrição>Tecnologia Core Boost  
+        Mystic Light
+        PWM IC Digital</descrição>
+		 <preco>169€</preco>
+		 <vídeo>https://youtu.be/HidVddtu6Zs?si=BK-xWBp9GlZDNHN1</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Placa Gráfica Sapphire Radeon RX 7800 XT Pure 16GB</nome>
+		<imagem>imagens/PlacaGraficaSapphireRadeonRX7800XTPure16GB.jpg</imagem>
+		<descrição>tecnologia de chiplet
+         Memória: 16GB GDDR6</descrição>
+		 <preco>589€</preco>
+		 <vídeo>https://youtu.be/t0AQFC9fBsY?si=XdNaXETjTrl3GYFm</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Processador AMD Ryzen 9 7950X3D "Zen 4" 16-Core</nome>
+		<imagem>imagens/ProcessadorAMDRyzen97950X3D16-Core.jpg</imagem>
+		<descrição> processador dominante para jogos
+        Processador de 5nm com núcleos "Zen 4" de alto desempenho
+        Suporte a memória DDR5 e PCIe® 5.0 em Socket AM5</descrição>
+		 <preco>759€</preco>
+		 <vídeo>https://youtu.be/_WihI6eqXw4?si=0GC-IeeEWklqdgX-</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Fonte de Alimentação ATX Corsair AX1600i </nome>
+		<imagem>imagens/ontedeAlimentacaoATXCorsairAX1600i.jpg</imagem>
+		<descrição>   Capacidade: 1600W
+        Eficiência: Até 94 %
+        OEM: Flextronics</descrição>
+		 <preco>567€</preco>
+		 <vídeo>https://youtu.be/kq2B2HKNjRY?si=UG2A-ixKfxGcaspw</vídeo>
+	</Produto>
+	
+	
+	<Produto >
+		
+		<nome>Processador Intel Core i9-13900K (13ª Geração)</nome>
+		<imagem>imagens/ProcessadorIntelCorei9-13900K.jpg</imagem>
+		<descrição> Mais eficiência em desempenho multitasking
+         Arquitetura híbrida de desempenho melhorada
+        Processador 13ª Geração Intel Core, Geração Raptor Lake</descrição>
+		 <preco>669€</preco>
+		 <vídeo>https://youtu.be/BYuJU5NPAhY?si=TiZ8hEHNSJzGj9Y7</vídeo>
+	</Produto>
+	
+	
+
+	
+</library>
